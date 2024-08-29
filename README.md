@@ -19,14 +19,7 @@
 
 
 
-<p align="center">
-  <a href="https://nxpkg.github.io/">
-    <img src="./docs-src/static/files/logo/logo_text.svg" width="380px" alt="JavaScript Database" />
-  </a>
-  <br />
-  <br />
-  <h3 align="center">A fast, local-first, reactive Database for JavaScript Applications</h3>
-</p>
+# NxDB
 
 
 <p align="center">
