@@ -1,0 +1,30 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "statusCheckVerify": true,
+  "ignoreDeps": [
+    "nxdb-old",
+    "expo",
+    "babel-preset-expo",
+    "jest-expo"
+  ],
+  "automerge": true,
+  "major": {
+    "automerge": true
+  },
+  "ignorePaths": [
+    "docs-src/static/files/logo/package.json",
+    "docs-src/package.json",
+    "docs-src/docusaurus-lunr-search-main/package.json",
+    "docs/files/logo/package.json",
+    "examples/ionic2/package.json",
+    "examples/supabase/package.json",
+    "examples/flutter/pubspec.yaml",
+    "src/plugins/flutter/dart/pubspec.yaml"
+  ],
+  "rebaseStalePrs": true,
+  "prConcurrentLimit": 6,
+  "prHourlyLimit": 2,
+  "dependencyDashboard": false
+}

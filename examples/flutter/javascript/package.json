@@ -1,0 +1,22 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "preinstall": "(cd ../../../ && npx yarn@1.22.10 pack ../../ --filename ./examples/flutter/javascript/nxdb-local.tgz)",
+    "build": "webpack --config ./webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "//": "NOTICE: For the Github CI we use the local NxDB build (nxdb-local.tgz). In your app should just install 'nxdb' from npm instead",
+  "dependencies": {
+    "nxdb": "file:nxdb-local.tgz",
+    "rxjs": "7.8.1"
+  },
+  "devDependencies": {
+    "webpack": "5.94.0",
+    "webpack-cli": "5.1.4"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "nxdb-node-example",
+  "version": "1.0.0",
+  "description": "nxdb node example",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "clear": "rimraf -rf heroesdb-nxdb*",
+    "test": "npm run clear && node src/test.js"
+  },
+  "author": "salomonelli",
+  "dependencies": {
+    "babel-polyfill": "6.26.0",
+    "chalk": "4.1.2",
+    "keypress": "0.2.1",
+    "pouchdb-adapter-http": "9.0.0",
+    "pouchdb-adapter-node-websql": "7.0.0",
+    "random-name": "0.1.2"
+  },
+  "devDependencies": {
+    "rimraf": "5.0.10"
+  }
+}
