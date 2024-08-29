@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.NXDB_UTILS_GLOBAL = exports.PREMIUM_FLAG_HASH = void 0;
+exports.PREMIUM_FLAG_HASH = exports.NXDB_UTILS_GLOBAL = void 0;
 /**
  * Can be used by some plugins to have a "global" object that
  * can be imported and mutated at will.

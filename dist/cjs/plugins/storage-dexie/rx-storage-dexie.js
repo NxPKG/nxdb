@@ -8,11 +8,11 @@ exports.getRxStorageDexie = getRxStorageDexie;
 var _dexieHelper = require("./dexie-helper.js");
 var _rxStorageInstanceDexie = require("./rx-storage-instance-dexie.js");
 var _rxStorageHelper = require("../../rx-storage-helper.js");
-var _utilsRxdbVersion = require("../utils/utils-nxdb-version.js");
+var _utilsNxdbVersion = require("../utils/utils-nxdb-version.js");
 var RxStorageDexie = exports.RxStorageDexie = /*#__PURE__*/function () {
   function RxStorageDexie(settings) {
     this.name = _dexieHelper.RX_STORAGE_NAME_DEXIE;
-    this.nxdbVersion = _utilsRxdbVersion.NXDB_VERSION;
+    this.nxdbVersion = _utilsNxdbVersion.NXDB_VERSION;
     this.settings = settings;
   }
   var _proto = RxStorageDexie.prototype;

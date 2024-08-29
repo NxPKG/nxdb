@@ -8,11 +8,11 @@ exports.getRxStorageDenoKV = getRxStorageDenoKV;
 var _rxStorageHelper = require("../../rx-storage-helper.js");
 var _denokvHelper = require("./denokv-helper.js");
 var _rxStorageInstanceDenokv = require("./rx-storage-instance-denokv.js");
-var _utilsRxdbVersion = require("../utils/utils-nxdb-version.js");
+var _utilsNxdbVersion = require("../utils/utils-nxdb-version.js");
 var RxStorageDenoKV = exports.RxStorageDenoKV = /*#__PURE__*/function () {
   function RxStorageDenoKV(settings) {
     this.name = _denokvHelper.RX_STORAGE_NAME_DENOKV;
-    this.nxdbVersion = _utilsRxdbVersion.NXDB_VERSION;
+    this.nxdbVersion = _utilsNxdbVersion.NXDB_VERSION;
     this.settings = settings;
   }
   var _proto = RxStorageDenoKV.prototype;

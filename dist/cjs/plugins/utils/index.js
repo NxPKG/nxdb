@@ -179,14 +179,14 @@ Object.keys(_utilsOther).forEach(function (key) {
     }
   });
 });
-var _utilsRxdbVersion = require("./utils-nxdb-version.js");
-Object.keys(_utilsRxdbVersion).forEach(function (key) {
+var _utilsNxdbVersion = require("./utils-nxdb-version.js");
+Object.keys(_utilsNxdbVersion).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _utilsRxdbVersion[key]) return;
+  if (key in exports && exports[key] === _utilsNxdbVersion[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
-      return _utilsRxdbVersion[key];
+      return _utilsNxdbVersion[key];
     }
   });
 });

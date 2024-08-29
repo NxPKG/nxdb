@@ -9,7 +9,7 @@ var _exportNames = {
   backup: true,
   NxDBBackupPlugin: true
 };
-exports.NxDBBackupPlugin = exports.RxBackupState = void 0;
+exports.RxBackupState = exports.NxDBBackupPlugin = void 0;
 exports.backup = backup;
 exports.backupSingleDocument = backupSingleDocument;
 var path = _interopRequireWildcard(require("node:path"));

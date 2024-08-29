@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.NxDBcrdtPlugin = exports.RX_CRDT_CONTEXT = void 0;
+exports.RX_CRDT_CONTEXT = exports.NxDBcrdtPlugin = void 0;
 exports.getCRDTConflictHandler = getCRDTConflictHandler;
 exports.getCRDTSchemaPart = getCRDTSchemaPart;
 exports.hashCRDTOperations = hashCRDTOperations;

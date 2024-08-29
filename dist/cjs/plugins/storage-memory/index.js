@@ -8,7 +8,7 @@ var _exportNames = {
 };
 exports.getRxStorageMemory = getRxStorageMemory;
 var _rxStorageHelper = require("../../rx-storage-helper.js");
-var _utilsRxdbVersion = require("../utils/utils-nxdb-version.js");
+var _utilsNxdbVersion = require("../utils/utils-nxdb-version.js");
 var _rxStorageInstanceMemory = require("./rx-storage-instance-memory.js");
 Object.keys(_rxStorageInstanceMemory).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
@@ -78,7 +78,7 @@ var COLLECTION_STATES = new Map();
 function getRxStorageMemory(settings = {}) {
   var storage = {
     name: 'memory',
-    nxdbVersion: _utilsRxdbVersion.NXDB_VERSION,
+    nxdbVersion: _utilsNxdbVersion.NXDB_VERSION,
     collectionStates: COLLECTION_STATES,
     createStorageInstance(params) {
       (0, _rxStorageHelper.ensureRxStorageInstanceParamsAreCorrect)(params);

@@ -13,7 +13,7 @@ var _exportNames = {
   postMigrateDocument: true,
   NxDBAttachmentsPlugin: true
 };
-exports.NxDBAttachmentsPlugin = exports.RxAttachment = void 0;
+exports.RxAttachment = exports.NxDBAttachmentsPlugin = void 0;
 exports.allAttachments = allAttachments;
 exports.fromStorageInstanceResult = fromStorageInstanceResult;
 exports.getAttachment = getAttachment;
