@@ -1,0 +1,4 @@
+# These are supported funding model platforms
+
+github: nxpkg
+custom: ["https://nxpkg.github.io/premium", "https://nxpkg.github.io/consulting"]
