@@ -7,10 +7,10 @@ description: Discover the NxDB Revolution for Angular Apps! 🚀 Learn how to su
 
 # NxDB as a Database in an Angular Application
 
-In modern web development, Angular has emerged as a popular framework for building robust and scalable applications. As Angular applications often require persistent [storage](./browser-storage.md) and efficient data handling, choosing the right database solution is crucial. One such solution is [NxDB](https://nxpkg.github.io/), a reactive JavaScript database for the browser, node.js, and [mobile devices](./mobile-database.md). In this article, we will explore the integration of NxDB into an Angular application and examine its various features and techniques.
+In modern web development, Angular has emerged as a popular framework for building robust and scalable applications. As Angular applications often require persistent [storage](./browser-storage.md) and efficient data handling, choosing the right database solution is crucial. One such solution is [NxDB](https://nxpkg.github.io/nxdb/), a reactive JavaScript database for the browser, node.js, and [mobile devices](./mobile-database.md). In this article, we will explore the integration of NxDB into an Angular application and examine its various features and techniques.
 
 <center>
-    <a href="https://nxpkg.github.io/">
+    <a href="https://nxpkg.github.io/nxdb/">
         <img src="../files/logo/nxdb_javascript_database.svg" alt="JavaScript Angular Database" width="220" />
     </a>
 </center>
@@ -33,10 +33,10 @@ NxDB stands for Reactive Database and is built on the principles of reactive pro
 To begin our journey with NxDB, let's understand its key concepts and features.
 
 ### What is NxDB?
-[NxDB](https://nxpkg.github.io/) is a client-side database that follows the principles of reactive programming. It is built on top of IndexedDB, the [native browser database](./browser-database.md), and leverages the RxJS library for reactive data handling. NxDB provides a simple and intuitive API for managing data and offers features like data replication, multi-tab support, and efficient query handling.
+[NxDB](https://nxpkg.github.io/nxdb/) is a client-side database that follows the principles of reactive programming. It is built on top of IndexedDB, the [native browser database](./browser-database.md), and leverages the RxJS library for reactive data handling. NxDB provides a simple and intuitive API for managing data and offers features like data replication, multi-tab support, and efficient query handling.
 
 <center>
-    <a href="https://nxpkg.github.io/">
+    <a href="https://nxpkg.github.io/nxdb/">
         <img src="../files/logo/nxdb_javascript_database.svg" alt="JavaScript Angular Database" width="220" />
     </a>
 </center>

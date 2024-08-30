@@ -20,7 +20,7 @@ While React excels at managing the user interface, the need for efficient data s
 NxDB, a powerful JavaScript database, has garnered attention as an optimal solution for managing data in React applications. Built on top of the IndexedDB standard, NxDB combines the principles of reactive programming with database management. Its core features include reactive data handling, offline-first capabilities, and robust data replication.
 
 <center>
-    <a href="https://nxpkg.github.io/">
+    <a href="https://nxpkg.github.io/nxdb/">
         <img src="../files/logo/nxdb_javascript_database.svg" alt="JavaScript React Database" width="221" />
     </a>
 </center>

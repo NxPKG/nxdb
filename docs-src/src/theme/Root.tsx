@@ -43,25 +43,25 @@ function addCallToActionButton() {
         {
             text: 'Chat',
             keyword: '@discord',
-            url: 'https://nxpkg.github.io/chat',
+            url: 'https://nxpkg.github.io/nxdb/chat',
             icon: '💬'
         },
         {
             text: 'Star',
             keyword: '@github',
-            url: 'https://nxpkg.github.io/code',
+            url: 'https://nxpkg.github.io/nxdb/code',
             icon: '🐙💻'
         },
         {
             text: 'Subscribe',
             keyword: '@newsletter',
-            url: 'https://nxpkg.github.io/newsletter',
+            url: 'https://nxpkg.github.io/nxdb/newsletter',
             icon: '📰'
         },
         {
             text: 'Take Part in the',
             keyword: 'User Survey 2024',
-            url: 'https://nxpkg.github.io/survey',
+            url: 'https://nxpkg.github.io/nxdb/survey',
             icon: '📝'
         }
     ];

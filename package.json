@@ -1,6 +1,6 @@
 {
-  "name": "nxdb",
-  "description": "A local-first realtime NoSQL Database for JavaScript applications - https://nxpkg.github.io/",
+  "name": "@nxdb/nxdb",
+  "description": "A local-first realtime NoSQL Database for JavaScript applications - https://nxpkg.github.io/nxdb/",
   "version": "15.32.0",
   "author": "nxpkg",
   "private": "true",
@@ -8,7 +8,7 @@
     "type": "git",
     "url": "https://github.com/nxpkg/nxdb"
   },
-  "homepage": "https://nxpkg.github.io/",
+  "homepage": "https://nxpkg.github.io/nxdb/",
   "keywords": [
     "db",
     "database",
@@ -480,7 +480,7 @@
     "oblivious-set": "1.4.0",
     "ohash": "1.1.3",
     "reconnecting-websocket": "4.4.0",
-    "rxdb": "14.17.1",
+    "nxdb": "14.17.1",
     "simple-peer": "9.11.1",
     "unload": "2.4.1",
     "util": "0.12.5",
@@ -566,7 +566,7 @@
     "nconf": "0.12.1",
     "node-datachannel": "0.11.0",
     "node-pre-gyp": "0.17.0",
-    "nxdb-old": "npm:@nxdb/nxdb@14.17.1",
+    "nxdb-old": "npm:@nxdb/nxdb@14.17.2",
     "pre-commit": "1.2.2",
     "process": "0.11.10",
     "querystring-es3": "0.2.1",

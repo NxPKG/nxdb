@@ -28,4 +28,4 @@ Substitute ios for android if not on a Mac.
 
 ## Related
 
-- [Comparison of Capacitor Databases](https://nxpkg.github.io/capacitor-database.html)
+- [Comparison of Capacitor Databases](https://nxpkg.github.io/nxdb/capacitor-database.html)

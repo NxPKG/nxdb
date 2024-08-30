@@ -26,8 +26,8 @@ function log(it) {
 }
 
 if (SHOW && !ADBLOCK && !CI && !DISABLE_OPENCOLLECTIVE && !SILENT) {
-    log('\u001b[96m\u001b[1mThank you for using NxDB ( https://nxpkg.github.io/ ) \u001b[96m\u001b[1m \n');
+    log('\u001b[96m\u001b[1mThank you for using NxDB ( https://nxpkg.github.io/nxdb/ ) \u001b[96m\u001b[1m \n');
     log('\u001B[96mHelp me to improve NxDB by answering a few questions ( < 2 minutes): \u001B[0m');
-    log('\u001B[96m>\u001B[94m Open the survey at https://nxpkg.github.io/survey.html \u001B[0m');
+    log('\u001B[96m>\u001B[94m Open the survey at https://nxpkg.github.io/nxdb/survey.html \u001B[0m');
     log('\u001b[96m\u001b[1mThank you \u001b[96m\u001b[1m \n');
 }

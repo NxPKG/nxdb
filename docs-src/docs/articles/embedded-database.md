@@ -4,10 +4,10 @@ slug: embedded-database.html
 ---
 
 # Using NxDB as an Embedded Database
-In modern UI applications, efficient data storage is a crucial aspect for seamless user experiences. One powerful solution for achieving this is by utilizing an embedded database. In this article, we will explore the concept of an embedded database and delve into the benefits of using [NxDB](https://nxpkg.github.io/) as an embedded database in UI applications. We will also discuss why NxDB stands out as a robust choice for real-time applications with embedded database functionality.
+In modern UI applications, efficient data storage is a crucial aspect for seamless user experiences. One powerful solution for achieving this is by utilizing an embedded database. In this article, we will explore the concept of an embedded database and delve into the benefits of using [NxDB](https://nxpkg.github.io/nxdb/) as an embedded database in UI applications. We will also discuss why NxDB stands out as a robust choice for real-time applications with embedded database functionality.
 
 <center>
-    <a href="https://nxpkg.github.io/">
+    <a href="https://nxpkg.github.io/nxdb/">
         <img src="../files/logo/nxdb_javascript_database.svg" alt="JavaScript Embedded Database" width="220" />
     </a>
 </center>
@@ -46,16 +46,16 @@ NxDB is a JavaScript-based embedded database that offers numerous advantages for
 - Replication Algorithm for Backend Compatibility: NxDB's replication algorithm is open-source and can be made compatible with various backend solutions, such as self-hosted servers, Firebase, [CouchDB](../replication-couchdb.md), NATS, WebSockets, and more. This flexibility allows developers to choose their preferred backend infrastructure while benefiting from NxDB's embedded database capabilities.
 
 <center>
-    <a href="https://nxpkg.github.io/">
+    <a href="https://nxpkg.github.io/nxdb/">
         <img src="../files/logo/nxdb_javascript_database.svg" alt="JavaScript Embedded Database" width="220" />
     </a>
 </center>
 
 
 ## Follow Up
-To further explore [NxDB](https://nxpkg.github.io/) and leverage its capabilities as an embedded database, the following resources can be helpful:
+To further explore [NxDB](https://nxpkg.github.io/nxdb/) and leverage its capabilities as an embedded database, the following resources can be helpful:
 
 - [NxDB GitHub Repository](https://github.com/nxpkg/nxdb): Visit the official GitHub repository of NxDB to access the source code, documentation, and community support.
 - [NxDB Quickstart](../quickstart.md): Get started quickly with NxDB by following the provided quickstart guide, which offers step-by-step instructions for setting up and using NxDB in your projects.
 
-By utilizing [NxDB](https://nxpkg.github.io/) as an embedded database in UI applications, developers can harness the power of efficient data management, real-time updates, and enhanced user experiences. NxDB's features and benefits make it a compelling choice for building modern, responsive, and scalable applications.
+By utilizing [NxDB](https://nxpkg.github.io/nxdb/) as an embedded database in UI applications, developers can harness the power of efficient data management, real-time updates, and enhanced user experiences. NxDB's features and benefits make it a compelling choice for building modern, responsive, and scalable applications.

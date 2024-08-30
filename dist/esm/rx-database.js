@@ -396,7 +396,7 @@ function throwIfDatabaseNameUsed(name, storage) {
     throw newRxError('DB8', {
       name,
       storage: storage.name,
-      link: 'https://nxpkg.github.io/rx-database.html#ignoreduplicate'
+      link: 'https://nxpkg.github.io/nxdb/rx-database.html#ignoreduplicate'
     });
   }
 }

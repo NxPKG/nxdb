@@ -93,10 +93,10 @@ export class RxStorageInstanceDexie<RxDocType> implements RxStorageInstance<
             console.warn(
                 [
                     '-------------- NxDB Open Core RxStorage -------------------------------',
-                    'You are using the free Dexie.js based RxStorage implementation from NxDB https://nxpkg.github.io/rx-storage-dexie.html?console=dexie ',
+                    'You are using the free Dexie.js based RxStorage implementation from NxDB https://nxpkg.github.io/nxdb/rx-storage-dexie.html?console=dexie ',
                     'While this is a great option, we want to let you know that there are faster storage solutions available in our premium plugins.',
                     'For professional users and production environments, we highly recommend considering these premium options to enhance performance and reliability.',
-                    ' https://nxpkg.github.io/premium?console=dexie ',
+                    ' https://nxpkg.github.io/nxdb/premium?console=dexie ',
                     'If you already purchased premium access you can disable this log by calling the setPremiumFlag() function from nxdb-premium/plugins/shared.',
                     '---------------------------------------------------------------------'
                 ].join('\n')

@@ -6,14 +6,14 @@ slug: realtime-database.html
 
 # What is a realtime database?
 
-I have been building [NxDB](https://nxpkg.github.io/), a NoSQL **realtime** JavaScript database for many years.
+I have been building [NxDB](https://nxpkg.github.io/nxdb/), a NoSQL **realtime** JavaScript database for many years.
 Often people get confused by the word **realtime database**, because the word **realtime** is so vaguely defined that it can mean everything and nothing at the same time.
 
 In this article we will explore what a realtime database is, and more important, what it is not.
 
 
 <center>
-    <a href="https://nxpkg.github.io/">
+    <a href="https://nxpkg.github.io/nxdb/">
         <img src="../files/logo/nxdb_javascript_database.svg" alt="JavaScript Realtime Database" width="150" />
     </a>
 </center>
@@ -44,7 +44,7 @@ In the context of the Firebase Realtime Database, "realtime" means that data cha
 In short, when replicating data between databases, instead of polling, we use a [websocket connection](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API) to live-stream all changes between the server and the clients, this is labeled as "realtime database". A similar thing can be done with NxDB and the [NxDB Replication Plugins](../replication.md).
 
 <p align="center">
-    <a href="https://nxpkg.github.io/replication.html">
+    <a href="https://nxpkg.github.io/nxdb/replication.html">
         <img src="../files/database-replication.png" alt="database replication" width="100" />
     </a>
 </p>
@@ -84,9 +84,9 @@ A competent realtime application is engineered to offer feedback or results swif
 
 ## Follow Up
 
-- Dive into the [NxDB Quickstart](https://nxpkg.github.io/quickstart.html)
+- Dive into the [NxDB Quickstart](https://nxpkg.github.io/nxdb/quickstart.html)
 - Discover more about the [NxDB realtime replication protocol](../replication.md)
-- Join the conversation at [NxDB Chat](https://nxpkg.github.io/chat)
+- Join the conversation at [NxDB Chat](https://nxpkg.github.io/nxdb/chat)
 
 
 

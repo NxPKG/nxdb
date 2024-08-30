@@ -11,7 +11,7 @@ export default function NotFoundContent({ className }) {
             <a href="/">
               <div style={{ textAlign: 'center' }}>
                 <img
-                  src="https://nxpkg.github.io/files/logo/nxdb_javascript_database.svg"
+                  src="https://nxpkg.github.io/nxdb/files/logo/nxdb_javascript_database.svg"
                   alt="NxDB"
                   width="160"
                 />
@@ -36,7 +36,7 @@ export default function NotFoundContent({ className }) {
           <div className="ul-container">
             <ul>
               <li>
-                <a href="https://nxpkg.github.io/quickstart.html">NxDB Documentation</a>
+                <a href="https://nxpkg.github.io/nxdb/quickstart.html">NxDB Documentation</a>
               </li>
               <li>
                 <a href="/chat">NxDB Discord Channel</a>

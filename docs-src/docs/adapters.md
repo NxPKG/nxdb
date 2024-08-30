@@ -15,7 +15,7 @@ This page is an overview over the different adapters with recommendations on wha
 ---------------------- 
 
 :::warning
-The PouchDB RxStorage [is removed from NxDB](https://nxpkg.github.io/questions-answers.html#why-is-the-pouchdb-rxstorage-deprecated) and can no longer be used in new projects. You should switch to a different [RxStorage](./rx-storage.md).
+The PouchDB RxStorage [is removed from NxDB](https://nxpkg.github.io/nxdb/questions-answers.html#why-is-the-pouchdb-rxstorage-deprecated) and can no longer be used in new projects. You should switch to a different [RxStorage](./rx-storage.md).
 :::
 
 ---------------------- 

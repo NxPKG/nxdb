@@ -10,7 +10,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
      <a href="https://vitejs.dev" target="_blank">
        <img src="/vite.svg" class="logo" alt="Vite logo" />
      </a>
-     <a href="https://nxpkg.github.io/" target="_blank">
+     <a href="https://nxpkg.github.io/nxdb/" target="_blank">
        <img src="${nxdbLogo}" class="logo nxdb" alt="NxDB logo" />
      </a>
     <a href="https://www.typescriptlang.org/" target="_blank">

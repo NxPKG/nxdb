@@ -10,7 +10,7 @@ export function ensureSchemaSupportsAttachments(doc: any) {
     const schemaJson = doc.collection.schema.jsonSchema;
     if (!schemaJson.attachments) {
         throw newRxError('AT1', {
-            link: 'https://nxpkg.github.io/nxdb/rx-attachment.html'
+            link: 'https://nxpkg.github.io/nxdb/nxdb/rx-attachment.html'
         });
     }
 }

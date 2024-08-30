@@ -40,4 +40,4 @@ import 'zone.js/plugins/zone-patch-rxjs';
 
 ![angular2](docfiles/angular2.gif)
 
-Read more about using [NxDB as Angular Database](https://nxpkg.github.io/articles/angular-database.html)
+Read more about using [NxDB as Angular Database](https://nxpkg.github.io/nxdb/articles/angular-database.html)

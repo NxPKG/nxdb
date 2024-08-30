@@ -26,4 +26,4 @@ For database replication and syncing you will need to input a public ip address 
 
 ## Related
 
-- [Comparison of React Native Databases](https://nxpkg.github.io/react-native-database.html)
+- [Comparison of React Native Databases](https://nxpkg.github.io/nxdb/react-native-database.html)

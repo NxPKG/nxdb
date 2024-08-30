@@ -1,6 +1,6 @@
 # Premium Tasks
 
-If you are a **single developer** and you use NxDB in your **side project**, you can get free 2 years access to the [NxDB Premium](https://nxpkg.github.io/premium) package by solving one Task of this list. Before you start working on that task, please make an issue where you tell about the estimated time to finish the task.
+If you are a **single developer** and you use NxDB in your **side project**, you can get free 2 years access to the [NxDB Premium](https://nxpkg.github.io/nxdb/premium) package by solving one Task of this list. Before you start working on that task, please make an issue where you tell about the estimated time to finish the task.
 
 
 ## Open Tasks (This list will be regularly updated with new Tasks)

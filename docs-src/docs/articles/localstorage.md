@@ -11,7 +11,7 @@ When it comes to client-side storage in web applications, the localStorage API s
 
 
 <center>
-    <a href="https://nxpkg.github.io/">
+    <a href="https://nxpkg.github.io/nxdb/">
         <img src="../files/logo/nxdb_javascript_database.svg" alt="JavaScript Database" width="220" />
     </a>
 </center>
@@ -65,7 +65,7 @@ Despite its convenience, localStorage does come with a set of limitations that d
 - **Limited Data Structure**: Unlike more advanced databases, localStorage is limited to a simple key-value store. This restriction makes it unsuitable for storing complex data structures or managing relationships between data elements.
 - **Stringification Overhead**: Storing JSON data in localStorage requires stringifying the data before storage and parsing it when retrieved. This process introduces performance overhead, potentially slowing down operations by up to 10 times.
 - **Lack of Indexing**: localStorage lacks indexing capabilities, making it challenging to perform efficient searches or iterate over data based on specific criteria. This limitation can hinder applications that rely on complex data retrieval.
-- **Tab Blocking**: In a multi-tab environment, one tab's localStorage operations can impact the performance of other tabs by monopolizing CPU resources. You can reproduce this behavior by opening [this test file](https://nxpkg.github.io/client-side-databases/database-comparison/index.html) in two browser windows and trigger localstorage inserts in one of them. You will observe that the indication spinner will stuck in both windows.
+- **Tab Blocking**: In a multi-tab environment, one tab's localStorage operations can impact the performance of other tabs by monopolizing CPU resources. You can reproduce this behavior by opening [this test file](https://nxpkg.github.io/nxdb/client-side-databases/database-comparison/index.html) in two browser windows and trigger localstorage inserts in one of them. You will observe that the indication spinner will stuck in both windows.
 - **Storage Limit**: Browsers typically impose a storage limit of [around 5 MiB](https://developer.mozilla.org/en-US/docs/Web/API/Storage_API/Storage_quotas_and_eviction_criteria#web_storage) for each origin's localStorage.
 
 ## Reasons to Still Use localStorage
@@ -97,10 +97,10 @@ complex queries can pose a challenge with IndexedDB, and while its performance i
 addEventListener("storage", (event) => {});
 ```
 
-For those looking to harness the full power of IndexedDB with added capabilities, using wrapper libraries like [NxDB](https://nxpkg.github.io/) or [Dexie.js](../rx-storage-dexie.md) is recommended. These libraries augment IndexedDB with features such as complex queries and observability, enhancing its usability for modern applications.
+For those looking to harness the full power of IndexedDB with added capabilities, using wrapper libraries like [NxDB](https://nxpkg.github.io/nxdb/) or [Dexie.js](../rx-storage-dexie.md) is recommended. These libraries augment IndexedDB with features such as complex queries and observability, enhancing its usability for modern applications.
 
 <center>
-    <a href="https://nxpkg.github.io/">
+    <a href="https://nxpkg.github.io/nxdb/">
         <img src="../files/logo/nxdb_javascript_database.svg" alt="NxDB" width="220" />
     </a>
 </center>
@@ -148,7 +148,7 @@ console.log(result.foobar); // {nr: 1}
 
 The **Deno** JavaScript runtime has a working localStorage API so running `localStorage.setItem()` and the other methods, will just work and the locally stored data is persisted across multiple runs.
 
-**Bun** does not support the localStorage JavaScript API. Trying to use `localStorage` will error with `ReferenceError: Can't find variable: localStorage`. To store data locally in Bun, you could use the `bun:sqlite` module instead or directly use a in-JavaScript database with Bun support like [NxDB](https://nxpkg.github.io/).
+**Bun** does not support the localStorage JavaScript API. Trying to use `localStorage` will error with `ReferenceError: Can't find variable: localStorage`. To store data locally in Bun, you could use the `bun:sqlite` module instead or directly use a in-JavaScript database with Bun support like [NxDB](https://nxpkg.github.io/nxdb/).
 
 
 ## Conclusion: Choosing the Right Storage Solution

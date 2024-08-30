@@ -12,7 +12,7 @@ In difference to the JavaScript runtime of browsers, React Native does not suppo
 Instead a different storage solution must be chosen that does not come directly with React Native itself but has to be installed as a library or plugin.
 
 :::note
-You are reading this inside of the [NxDB](https://nxpkg.github.io/) documentation, so everything might be opinionated.
+You are reading this inside of the [NxDB](https://nxpkg.github.io/nxdb/) documentation, so everything might be opinionated.
 :::
 
 <p align="center">
@@ -121,7 +121,7 @@ const db = new PouchDB('mydb.db', {
   <img src="./files/logo/nxdb_javascript_database.svg" alt="NxDB" width="170" />
 </p>
 
-[NxDB](https://nxpkg.github.io/) is an local-first, NoSQL-database for JavaScript applications. It is reactive which means that you can not only query the current state, but subscribe to all state changes like the result of a query or even a single field of a document. This is great for UI-based realtime applications in a way that makes it easy to develop realtime applications like what you need in React Native.
+[NxDB](https://nxpkg.github.io/nxdb/) is an local-first, NoSQL-database for JavaScript applications. It is reactive which means that you can not only query the current state, but subscribe to all state changes like the result of a query or even a single field of a document. This is great for UI-based realtime applications in a way that makes it easy to develop realtime applications like what you need in React Native.
 
 There are multiple ways to use NxDB in React Native:
 

@@ -11,18 +11,18 @@ const __dirname = url.fileURLToPath(new URL('.', import.meta.url));
 
 
 /**
- * This script starts the public signaling server for NxDB at wss://signaling.nxpkg.github.io
+ * This script starts the public signaling server for NxDB at wss://signaling.nxpkg.github.io/nxdb
  * which can be used for prototypes and try-outs. You should never
  * use that in production, instead you should host your own signaling server.
  *
  * Letsencrypt certbot setup:
- * > certbot certonly --agree-tos --preferred-challenges http -d signaling.nxpkg.github.io --webroot -w /nxdb/scripts/acme-challenge
+ * > certbot certonly --agree-tos --preferred-challenges http -d signaling.nxpkg.github.io/nxdb --webroot -w /nxdb/scripts/acme-challenge
  *
  *
  */
 
-const sslKeyPath = '/etc/letsencrypt/live/signaling.nxpkg.github.io/privkey.pem';
-const sslCertPath = '/etc/letsencrypt/live/signaling.nxpkg.github.io/fullchain.pem';
+const sslKeyPath = '/etc/letsencrypt/live/signaling.nxpkg.github.io/nxdb/privkey.pem';
+const sslCertPath = '/etc/letsencrypt/live/signaling.nxpkg.github.io/nxdb/fullchain.pem';
 const certbotChallengePath = path.join(__dirname, 'acme-challenge', '.well-known', 'acme-challenge');
 
 async function run() {

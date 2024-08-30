@@ -67,7 +67,7 @@ async function _create(injector: Injector): Promise<RxHeroesDatabase> {
     /**
      * Add the Reactivity Factory so that we can get angular Signals
      * instead of observables.
-     * @link https://nxpkg.github.io/reactivity.html
+     * @link https://nxpkg.github.io/nxdb/reactivity.html
      */
     const reactivityFactory: RxReactivityFactory<Signal<any>> = {
         fromObservable(obs, initialValue: any) {

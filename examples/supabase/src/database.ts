@@ -44,7 +44,7 @@ export async function createDatabase() {
      * To make it possible to detect and resolve conflicts,
      * we use a custom field 'replicationRevision' that
      * works similar to the nxdb revision and will be automatically updated on each write.
-     * @link https://nxpkg.github.io/transactions-conflicts-revisions.html
+     * @link https://nxpkg.github.io/nxdb/transactions-conflicts-revisions.html
      */
     database.heroes.preInsert((docData) => {
         docData.replicationRevision = createRevision(

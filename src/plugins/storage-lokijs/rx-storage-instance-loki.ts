@@ -140,10 +140,10 @@ export class RxStorageInstanceLoki<RxDocType> implements RxStorageInstance<
             console.warn(
                 [
                     '-------------- NxDB Open Core RxStorage -------------------------------',
-                    'You are using the free LokiJS based RxStorage implementation from NxDB https://nxpkg.github.io/rx-storage-lokijs.html?console=loki ',
+                    'You are using the free LokiJS based RxStorage implementation from NxDB https://nxpkg.github.io/nxdb/rx-storage-lokijs.html?console=loki ',
                     'While this is a great option, we want to let you know that there are faster storage solutions available in our premium plugins.',
                     'For professional users and production environments, we highly recommend considering these premium options to enhance performance and reliability.',
-                    ' https://nxpkg.github.io/premium?console=loki ',
+                    ' https://nxpkg.github.io/nxdb/premium?console=loki ',
                     'If you already purchased premium access you can disable this log by calling the setPremiumFlag() function from nxdb-premium/plugins/shared.',
                     '---------------------------------------------------------------------'
                 ].join('\n')

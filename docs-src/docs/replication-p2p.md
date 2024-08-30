@@ -7,4 +7,4 @@ slug: replication-p2p.html
 
 The new documentation page has been moved to [here](./replication-webrtc.md)
 
-<meta http-equiv="refresh" content="0; url=https://nxpkg.github.io/replication-webrtc.html" />
+<meta http-equiv="refresh" content="0; url=https://nxpkg.github.io/nxdb/replication-webrtc.html" />
