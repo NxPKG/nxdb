@@ -70,7 +70,7 @@ function sendMessage(ws: WebSocket, msg: PeerMessage) {
     ws.send(JSON.stringify(msg));
 }
 
-const DEFAULT_SIGNALING_SERVER_HOSTNAME = 'signaling.nxdb.nxpkg.github.io';
+const DEFAULT_SIGNALING_SERVER_HOSTNAME = 'signaling.nxdb.khulnasoft.com';
 export const DEFAULT_SIGNALING_SERVER = 'wss://' + DEFAULT_SIGNALING_SERVER_HOSTNAME + '/';
 let defaultServerWarningShown = false;
 
@@ -80,7 +80,7 @@ export type SimplePeerConfig = SimplePeerOptions['config'];
 export type SimplePeerConnectionHandlerOptions = {
     /**
      * If no server is specified, the default signaling server
-     * from signaling.nxdb.nxpkg.github.io is used.
+     * from signaling.nxdb.khulnasoft.com is used.
      * This server is not reliable and you should use
      * your own signaling server instead.
      */
@@ -118,7 +118,7 @@ export function getConnectionHandlerSimplePeer({
                 'By default it will use a signaling server provided by NxDB at ' + DEFAULT_SIGNALING_SERVER,
                 'This server is made for demonstration purposes and tryouts. It is not reliable and might be offline at any time.',
                 'In production you must always use your own signaling server instead.',
-                'Learn how to run your own server at https://nxdb.nxpkg.github.io/replication-webrtc.html',
+                'Learn how to run your own server at https://nxdb.khulnasoft.com/replication-webrtc.html',
                 'Also leave a ⭐ at the NxDB github repo 🙏 https://github.com/nxpkg/nxdb 🙏'
             ].join(' ')
         );

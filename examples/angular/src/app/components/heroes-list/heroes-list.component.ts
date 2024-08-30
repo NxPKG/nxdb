@@ -35,7 +35,7 @@ export class HeroesListComponent {
 
     /**
      * You can also get singals instead of observables
-     * @link https://nxdb.nxpkg.github.io/reactivity.html
+     * @link https://nxdb.khulnasoft.com/reactivity.html
      */
     public heroCount$$ = this.dbService.db.hero.count().$$;
 

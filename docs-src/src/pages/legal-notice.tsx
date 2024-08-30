@@ -21,7 +21,7 @@ export default function LegalNotice() {
                                 <img src="/files/logo/logo_text.svg" alt="NxDB" width={160} />
                             </div>
                         </a>
-                        <h1><a href="https://nxdb.nxpkg.github.io/">NxDB</a> Legal Notice</h1>
+                        <h1><a href="https://nxdb.khulnasoft.com/">NxDB</a> Legal Notice</h1>
                         <p>
                             Daniel Meyer<br />
                             c/o Grosch Postflex #1154<br />

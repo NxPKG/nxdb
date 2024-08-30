@@ -5,7 +5,7 @@ slug: why-nosql.html
 
 # Why UI applications need NoSQL
 
-[NxDB](https://nxdb.nxpkg.github.io), a client side, offline first, JavaScript database, is now several years old.
+[NxDB](https://nxdb.khulnasoft.com), a client side, offline first, JavaScript database, is now several years old.
 Often new users appear in the chat and ask for that one simple feature:
 They want to store and query **relational data**.
 

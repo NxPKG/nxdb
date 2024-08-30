@@ -5,11 +5,11 @@ slug: ionic-database.html
 
 # Ionic Storage - NxDB as database for hybrid apps
 
-In the fast-paced world of mobile app development, **hybrid applications** have emerged as a versatile solution, offering the best of both worlds - the web and native app experiences. One key challenge these apps face is efficiently storing and querying data on the **client's device**. Enter [NxDB](https://nxdb.nxpkg.github.io/), a powerful client-side database tailored for ionic hybrid applications. In this article, we'll explore how NxDB addresses the requirements of storing and querying data in ionic apps, and why it stands out as a preferred choice.
+In the fast-paced world of mobile app development, **hybrid applications** have emerged as a versatile solution, offering the best of both worlds - the web and native app experiences. One key challenge these apps face is efficiently storing and querying data on the **client's device**. Enter [NxDB](https://nxdb.khulnasoft.com/), a powerful client-side database tailored for ionic hybrid applications. In this article, we'll explore how NxDB addresses the requirements of storing and querying data in ionic apps, and why it stands out as a preferred choice.
 
 
 <center>
-    <a href="https://nxdb.nxpkg.github.io/">
+    <a href="https://nxdb.khulnasoft.com/">
         <img src="../files/icons/ionic.svg" alt="Ionic Database Storage" width="120" />
     </a>
 </center>
@@ -29,14 +29,14 @@ NxDB steps in as a powerful solution to address the data management needs of ion
 
 
 <center>
-    <a href="https://nxdb.nxpkg.github.io/">
+    <a href="https://nxdb.khulnasoft.com/">
         <img src="../files/logo/nxdb_javascript_database.svg" alt="JavaScript Ionic Database Storage" width="220" />
     </a>
 </center>
 
 ### What is NxDB?
 
-At its core, [NxDB](https://nxdb.nxpkg.github.io/) is a **NoSQL** database that operates with a [local-first](../offline-first.md) approach. This means that your app's data is stored and processed primarily on the client's device, reducing the dependency on constant network connectivity. By doing so, NxDB ensures your app remains responsive and functional, even when offline.
+At its core, [NxDB](https://nxdb.khulnasoft.com/) is a **NoSQL** database that operates with a [local-first](../offline-first.md) approach. This means that your app's data is stored and processed primarily on the client's device, reducing the dependency on constant network connectivity. By doing so, NxDB ensures your app remains responsive and functional, even when offline.
 
 ### Local-First Approach
 The [local-first](../offline-first.md) approach adopted by NxDB is a game-changer for hybrid applications. Storing data locally allows your app to function seamlessly without an internet connection, providing users with uninterrupted access to their data. When connectivity is restored, NxDB handles the synchronization of data, ensuring that any changes made offline are appropriately propagated.
@@ -91,7 +91,7 @@ NxDB's integration into your ionic hybrid app opens up a world of possibilities 
 
 ### Setup NxDB
 Getting started with NxDB is a straightforward process. By including the NxDB library in your project, you can quickly start harnessing its capabilities. Begin by installing the [NxDB package](https://www.npmjs.com/package/nxdb) from the npm registry. Then, configure your database instance to suit your app's needs. This setup process paves the way for seamless data management in your ionic hybrid app.
-For a full instruction, follow the [NxDB Quickstart](https://nxdb.nxpkg.github.io/quickstart.html).
+For a full instruction, follow the [NxDB Quickstart](https://nxdb.khulnasoft.com/quickstart.html).
 
 ### Using NxDB in Frameworks (React, Angular, Vue.js)
 NxDB seamlessly integrates with various JavaScript frameworks, ensuring compatibility with your preferred development environment. Whether you're building your ionic hybrid app with [React](./react-database.md), [Angular](./angular-database.md), or [Vue.js](https://github.com/nxpkg/nxdb/tree/master/examples/vue), NxDB offers bindings and tools that enable you to leverage its features effortlessly. This compatibility allows you to stay within the comfort zone of your chosen framework while benefiting from NxDB's powerful data management capabilities.
@@ -130,7 +130,7 @@ Peer-to-peer (P2P) replication via WebRTC introduces a cutting-edge approach to 
 When it comes to securing sensitive data in your Ionic applications, NxDB emerges as a powerful alternative to traditional secure storage solutions. Let's delve into why NxDB is an exceptional choice for safeguarding your data while providing additional benefits.
 
 ### NxDB On-Device Encryption Plugin
-NxDB offers an [on-device encryption plugin](https://nxdb.nxpkg.github.io/encryption.html), adding an extra layer of security to your app's data. This means that data stored within the NxDB database can be encrypted, ensuring that even if the device falls into the wrong hands, the sensitive information remains inaccessible without the proper decryption key. This level of data protection is crucial for applications that deal with personal or confidential information. Encryption runs either with `AES` on `crypto-js` or with the [Web Crypto API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Crypto_API) which is faster and more secure.
+NxDB offers an [on-device encryption plugin](https://nxdb.khulnasoft.com/encryption.html), adding an extra layer of security to your app's data. This means that data stored within the NxDB database can be encrypted, ensuring that even if the device falls into the wrong hands, the sensitive information remains inaccessible without the proper decryption key. This level of data protection is crucial for applications that deal with personal or confidential information. Encryption runs either with `AES` on `crypto-js` or with the [Web Crypto API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Crypto_API) which is faster and more secure.
 
 ### Works Offline
 Security should never compromise functionality. NxDB excels in this area by allowing your application to operate seamlessly even when offline. The locally stored encrypted data remains accessible and functional, enabling users to interact with the app's features even without an active internet connection. This offline capability ensures that user data is secure, while the app continues to deliver a responsive and uninterrupted experience.
@@ -139,7 +139,7 @@ Security should never compromise functionality. NxDB excels in this area by allo
 Ensuring data consistency between your client-side application and backend is a key concern for developers. NxDB simplifies this process with its straightforward replication setup. You can effortlessly configure data synchronization between your local NxDB instance and your backend server. This replication capability ensures that encrypted data remains up-to-date and aligned with the central database, enhancing data integrity and security.
 
 ### Compression of Client-Side Stored Data
-In addition to security and offline capabilities, NxDB also offers [data compression](https://nxdb.nxpkg.github.io/key-compression.html). This means that the data stored on the client's device is efficiently compressed, reducing storage requirements and improving overall app performance. This compression ensures that your app remains responsive and efficient, even as data volumes grow.
+In addition to security and offline capabilities, NxDB also offers [data compression](https://nxdb.khulnasoft.com/key-compression.html). This means that the data stored on the client's device is efficiently compressed, reducing storage requirements and improving overall app performance. This compression ensures that your app remains responsive and efficient, even as data volumes grow.
 
 ### Cost-Effective Solution
 In addition to its security features, NxDB offers cost-effective benefits. NxDB is [priced more affordably](/premium) compared to some other secure storage solutions, making it an attractive option for developers seeking robust security without breaking the bank. For many users, the free version of NxDB provides ample features to meet their application's security and data management needs.
@@ -152,8 +152,8 @@ In addition to its security features, NxDB offers cost-effective benefits. NxDB 
 ## Follow Up
 
 - Try out the [NxDB ionic example project](https://github.com/nxpkg/nxdb/tree/master/examples/ionic2)
-- Try out the [NxDB Quickstart](https://nxdb.nxpkg.github.io/quickstart.html)
-- Join the [NxDB Chat](https://nxdb.nxpkg.github.io/chat)
+- Try out the [NxDB Quickstart](https://nxdb.khulnasoft.com/quickstart.html)
+- Join the [NxDB Chat](https://nxdb.khulnasoft.com/chat)
 
 
 

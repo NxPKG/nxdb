@@ -6,7 +6,7 @@ description: Origin Private File System (OPFS) Database with the NxDB OPFS-RxSto
 
 # Origin Private File System (OPFS) Database with the NxDB OPFS-RxStorage
 
-With the [NxDB](https://nxdb.nxpkg.github.io/) OPFS storage you can build a fully featured database on top of the [Origin Private File System](https://web.dev/opfs) (OPFS) browser API. Compared to other storage solutions, it has a way better performance.
+With the [NxDB](https://nxdb.khulnasoft.com/) OPFS storage you can build a fully featured database on top of the [Origin Private File System](https://web.dev/opfs) (OPFS) browser API. Compared to other storage solutions, it has a way better performance.
 
 ## What is OPFS
 
@@ -78,7 +78,7 @@ A more detailed description of the OPFS API can be found [on MDN](https://develo
 
 ## OPFS performance
 
-Because the Origin Private File System API provides low-level access to binary files, it is much faster compared to [IndexedDB](./slow-indexeddb.md) or [localStorage](./articles/localstorage.md). According to the [storage performance test](https://nxdb.nxpkg.github.io/client-side-databases/database-comparison/index.html), OPFS is up to 2x times faster on plain inserts when a new file is created on each write. Reads are even faster.
+Because the Origin Private File System API provides low-level access to binary files, it is much faster compared to [IndexedDB](./slow-indexeddb.md) or [localStorage](./articles/localstorage.md). According to the [storage performance test](https://nxdb.khulnasoft.com/client-side-databases/database-comparison/index.html), OPFS is up to 2x times faster on plain inserts when a new file is created on each write. Reads are even faster.
 
 A good comparison about real world scenarios, are the [performance results](./rx-storage-performance.md) of the various NxDB storages. Here it shows that reads are up to 4x faster compared to IndexedDB, even with complex queries:
 
@@ -193,4 +193,4 @@ Often developers are confused with the differences between the `File System Acce
 
 - [WebKit: The File System API with Origin Private File System](https://webkit.org/blog/12257/the-file-system-access-api-with-origin-private-file-system/)
 - [Browser Support](https://caniuse.com/native-filesystem-api)
-- [Performance Test Tool](https://nxdb.nxpkg.github.io/client-side-databases/database-comparison/index.html)
+- [Performance Test Tool](https://nxdb.khulnasoft.com/client-side-databases/database-comparison/index.html)

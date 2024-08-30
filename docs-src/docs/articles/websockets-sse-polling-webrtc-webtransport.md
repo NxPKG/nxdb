@@ -11,7 +11,7 @@ For modern real-time web applications, the ability to send events from the serve
 This article aims to delve into these technologies, comparing their performance, highlighting their benefits and limitations, and offering recommendations for various use cases to help developers make informed decisions when building real-time web applications. It is a condensed summary of my gathered experience when I implemented the [NxDB Replication Protocol](../replication.md) to be compatible with various backend technologies.
 
 <center>
-    <a href="https://nxdb.nxpkg.github.io/">
+    <a href="https://nxdb.khulnasoft.com/">
         <img src="../files/logo/nxdb_javascript_database.svg" alt="JavaScript Database" width="220" />
     </a>
 </center>
@@ -153,7 +153,7 @@ While it would also be possible with **Long-Polling** in theory, it is not recom
 to do an additional http-request anyway. So instead of doing that you can send data directly from the client to the server with an additional http-request without interrupting
 the long-polling connection.
 
-**Server-Sent-Events** do not support sending any additional data to the server. You can only do the initial request, and even there you cannot send POST-like data in the http-body by default with the native [EventSource API](https://developer.mozilla.org/en-US/docs/Web/API/EventSource). Instead you have to put all data inside of the url parameters which is considered a bad practice for security because credentials might leak into server logs, proxies and caches. To fix this problem, [NxDB](https://nxdb.nxpkg.github.io/) for example uses the [eventsource polyfill](https://github.com/EventSource/eventsource) instead of the native `EventSource API`. This library adds additional functionality like sending **custom http headers**. Also there is [this library](https://github.com/Azure/fetch-event-source) from microsoft which allows to send body data and use `POST` requests instead of `GET`.
+**Server-Sent-Events** do not support sending any additional data to the server. You can only do the initial request, and even there you cannot send POST-like data in the http-body by default with the native [EventSource API](https://developer.mozilla.org/en-US/docs/Web/API/EventSource). Instead you have to put all data inside of the url parameters which is considered a bad practice for security because credentials might leak into server logs, proxies and caches. To fix this problem, [NxDB](https://nxdb.khulnasoft.com/) for example uses the [eventsource polyfill](https://github.com/EventSource/eventsource) instead of the native `EventSource API`. This library adds additional functionality like sending **custom http headers**. Also there is [this library](https://github.com/Azure/fetch-event-source) from microsoft which allows to send body data and use `POST` requests instead of `GET`.
 
 ### 6-Requests per Domain Limit
 
@@ -167,7 +167,7 @@ In theory the connection limit could also be increased by the browser, at least 
 
 :::note Lower the amount of connections in Browser Apps
 When you build a browser application, you have to assume that your users will use the app not only once, but in multiple browser tabs in parallel.
-By default you likely will open one server-stream-connection per tab which is often not necessary at all. Instead you open only a single connection and shared it between tabs, no matter how many tabs are open. [NxDB](https://nxdb.nxpkg.github.io/) does that with the [LeaderElection](../leader-election.md) from the [broadcast-channel npm package](https://github.com/nxpkg/broadcast-channel) to only have one stream of replication between server and clients. You can use that package standalone (without NxDB) for any type of application.
+By default you likely will open one server-stream-connection per tab which is often not necessary at all. Instead you open only a single connection and shared it between tabs, no matter how many tabs are open. [NxDB](https://nxdb.khulnasoft.com/) does that with the [LeaderElection](../leader-election.md) from the [broadcast-channel npm package](https://github.com/nxpkg/broadcast-channel) to only have one stream of replication between server and clients. You can use that package standalone (without NxDB) for any type of application.
 :::
 
 ### Connections are not kept open on mobile apps
@@ -177,10 +177,10 @@ In the context of mobile applications running on operating systems like Android 
 
 ### Proxies and Firewalls
 
-From consutling many [NxDB](https://nxdb.nxpkg.github.io/) users, it was shown that in enterprise environments (aka "at work") it is often hard to implement a WebSocket server into the infrastructure because many proxies and firewalls block non-HTTP connections. Therefore using the Server-Sent-Events provides and easier way of enterprise integration. Also long-polling uses only plain HTTP-requests and might be an option.
+From consutling many [NxDB](https://nxdb.khulnasoft.com/) users, it was shown that in enterprise environments (aka "at work") it is often hard to implement a WebSocket server into the infrastructure because many proxies and firewalls block non-HTTP connections. Therefore using the Server-Sent-Events provides and easier way of enterprise integration. Also long-polling uses only plain HTTP-requests and might be an option.
 
 <center>
-    <a href="https://nxdb.nxpkg.github.io/">
+    <a href="https://nxdb.khulnasoft.com/">
         <img src="../files/logo/nxdb_javascript_database.svg" alt="JavaScript Database" width="220" />
     </a>
 </center>

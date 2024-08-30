@@ -28,7 +28,7 @@ async function addDevModeTrackingIframe(db) {
   iframeShown = true;
   var iframe = document.createElement('iframe');
   iframe.style.display = 'none';
-  iframe.src = 'https://nxdb.nxpkg.github.io/html/dev-mode-iframe.html?version=' + _index.NXDB_VERSION;
+  iframe.src = 'https://nxdb.khulnasoft.com/html/dev-mode-iframe.html?version=' + _index.NXDB_VERSION;
   document.body.appendChild(iframe);
 }
 function isLocalHost() {

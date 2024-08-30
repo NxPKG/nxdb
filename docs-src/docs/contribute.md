@@ -36,7 +36,7 @@ If you make a pull-request, ensure the following:
 
 ## Getting help
 
-If you need help with your contribution, ask at [discord](https://nxdb.nxpkg.github.io/chat).
+If you need help with your contribution, ask at [discord](https://nxdb.khulnasoft.com/chat).
 
 ## No-Go
 

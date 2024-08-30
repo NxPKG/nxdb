@@ -55,7 +55,7 @@ When I first implemented the GraphQL replication a few years ago, I had a specif
 <p>The <code>is-my-json-valid</code> validation is no longer supported until <a href="https://github.com/mafintosh/is-my-json-valid/pull/192" target="_blank" rel="noopener noreferrer">this bug</a> is fixed.</p>
 </li>
 <li>
-<p>REFACTORED the <a href="https://nxdb.nxpkg.github.io/schema-validation.html" target="_blank" rel="noopener noreferrer">schema validation plugins</a>, they are no longer plugins but now they get wrapped around any other RxStorage.</p>
+<p>REFACTORED the <a href="https://nxdb.khulnasoft.com/schema-validation.html" target="_blank" rel="noopener noreferrer">schema validation plugins</a>, they are no longer plugins but now they get wrapped around any other RxStorage.</p>
 <ul>
 <li>It allows us to run the validation inside of a <a href="/rx-storage-worker.html">Worker RxStorage</a> instead of running it in the main JavaScript process.</li>
 <li>It allows us to configure which <code>RxDatabase</code> instance must use the validation and which does not. In production it often makes sense to validate user data, but you might not need the validation for data that is only replicated from the backend.</li>

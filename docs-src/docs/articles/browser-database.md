@@ -4,11 +4,11 @@ slug: browser-database.html
 ---
 
 # NxDB: The benefits of Browser Databases
-In the world of web development, efficient data management is a cornerstone of building successful and performant applications. The ability to store data directly in the browser brings numerous advantages, such as caching, offline accessibility, simplified replication of database state, and real-time application development. In this article, we will explore [NxDB](https://nxdb.nxpkg.github.io/), a powerful browser JavaScript database, and understand why it is an excellent choice for implementing a browser database solution.
+In the world of web development, efficient data management is a cornerstone of building successful and performant applications. The ability to store data directly in the browser brings numerous advantages, such as caching, offline accessibility, simplified replication of database state, and real-time application development. In this article, we will explore [NxDB](https://nxdb.khulnasoft.com/), a powerful browser JavaScript database, and understand why it is an excellent choice for implementing a browser database solution.
 
 
 <center>
-    <a href="https://nxdb.nxpkg.github.io/">
+    <a href="https://nxdb.khulnasoft.com/">
         <img src="../files/logo/nxdb_javascript_database.svg" alt="JavaScript Browser Database" width="220" />
     </a>
 </center>
@@ -38,7 +38,7 @@ Browser databases offer the advantage of running queries locally, resulting in l
 Storing data in the browser reduces the initial application start time. Instead of waiting for data to be fetched from the server, the application can leverage the local database, resulting in faster initialization and improved user satisfaction right from the start.
 
 ### Easier integration with JavaScript frameworks
-Browser databases, including [NxDB](https://nxdb.nxpkg.github.io/), seamlessly integrate with popular JavaScript frameworks such as [Angular](./angular-database.md), React.js, Vue.js, and Svelte. This integration allows developers to leverage the power of a database while working within the familiar environment of their preferred framework, enhancing productivity and ease of development.
+Browser databases, including [NxDB](https://nxdb.khulnasoft.com/), seamlessly integrate with popular JavaScript frameworks such as [Angular](./angular-database.md), React.js, Vue.js, and Svelte. This integration allows developers to leverage the power of a database while working within the familiar environment of their preferred framework, enhancing productivity and ease of development.
 
 ### Store local data with encryption
 Security is a crucial aspect of data storage, especially when handling sensitive information. Browser databases, like NxDB, offer the capability to store local data with encryption, ensuring the confidentiality and protection of sensitive user data.
@@ -60,7 +60,7 @@ When data is stored in the browser, it becomes portable and always accessible by
 While SQL databases, such as SQLite, excel in server-side scenarios, they are not always the optimal choice for browser-based applications. Here are some reasons why SQL databases may not be the best fit for the browser:
 
 ### Push/Pull based vs. reactive
-SQL databases typically rely on a push/pull mechanism, where the server pushes updates to the client or the client pulls data from the server. This approach is not inherently reactive and requires additional effort to implement real-time data updates. In contrast, browser databases like [NxDB](https://nxdb.nxpkg.github.io/) provide built-in reactive mechanisms, allowing the application to react to data changes seamlessly.
+SQL databases typically rely on a push/pull mechanism, where the server pushes updates to the client or the client pulls data from the server. This approach is not inherently reactive and requires additional effort to implement real-time data updates. In contrast, browser databases like [NxDB](https://nxdb.khulnasoft.com/) provide built-in reactive mechanisms, allowing the application to react to data changes seamlessly.
 
 ### Build size of server-side databases
 Server-side databases, designed to handle large-scale applications, often have significant build sizes that are unsuitable for browser applications. In contrast, browser databases are specifically optimized for browser environments and leverage browser APIs like IndexedDB, OPFS, and Webworker, resulting in smaller build sizes.
@@ -132,4 +132,4 @@ To explore more about NxDB and leverage its capabilities for browser database de
 - [NxDB GitHub Repository](https://github.com/nxpkg/nxdb): Visit the official GitHub repository of NxDB to access the source code, documentation, and community support.
 - [NxDB Quickstart](../quickstart.md): Get started quickly with NxDB by following the provided quickstart guide, which provides step-by-step instructions for setting up and using NxDB in your projects.
 
-[NxDB](https://nxdb.nxpkg.github.io/) empowers developers to unlock the power of browser databases, enabling efficient data management, real-time applications, and enhanced user experiences. By leveraging NxDB's features and benefits, you can take your browser-based applications to the next level of performance, scalability, and responsiveness.
+[NxDB](https://nxdb.khulnasoft.com/) empowers developers to unlock the power of browser databases, enabling efficient data management, real-time applications, and enhanced user experiences. By leveraging NxDB's features and benefits, you can take your browser-based applications to the next level of performance, scalability, and responsiveness.

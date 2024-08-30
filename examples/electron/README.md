@@ -1,6 +1,6 @@
 # NxDB Electron example
 
-This is an example usage of NxDB with the [Electron RxStorage](https://nxdb.nxpkg.github.io/electron.html). It implements a simple heroes-list which can be filled by the user.
+This is an example usage of NxDB with the [Electron RxStorage](https://nxdb.khulnasoft.com/electron.html). It implements a simple heroes-list which can be filled by the user.
 
 # Try it out
 
@@ -13,5 +13,5 @@ This is an example usage of NxDB with the [Electron RxStorage](https://nxdb.nxpk
 
 ## Related
 
--   [Comparison of Electron Databases](https://nxdb.nxpkg.github.io/electron-database.html)
--   [RxStorage Electron IpcRenderer & IpcMain](https://nxdb.nxpkg.github.io/electron.html)
+-   [Comparison of Electron Databases](https://nxdb.khulnasoft.com/electron-database.html)
+-   [RxStorage Electron IpcRenderer & IpcMain](https://nxdb.khulnasoft.com/electron.html)

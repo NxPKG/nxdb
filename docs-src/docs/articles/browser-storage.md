@@ -13,7 +13,7 @@ description: Explore NxDB for browser storage its advantages, limitations, and w
 When it comes to building web applications, one essential aspect is the storage of data. Two common methods of storing data directly within the user's web browser are Localstorage and IndexedDB. These browser-based storage options serve various purposes and cater to different needs in web development.
 
 <center>
-    <a href="https://nxdb.nxpkg.github.io/">
+    <a href="https://nxdb.khulnasoft.com/">
         <img src="../files/logo/nxdb_javascript_database.svg" alt="JavaScript Browser Storage" width="220" />
     </a>
 </center>
@@ -75,7 +75,7 @@ SQL databases are optimized for server environments, and their initialization pr
 NxDB is an excellent choice for browser-based storage due to its numerous features and advantages:
 
 <center>
-    <a href="https://nxdb.nxpkg.github.io/">
+    <a href="https://nxdb.khulnasoft.com/">
         <img src="../files/logo/nxdb_javascript_database.svg" alt="JavaScript Browser Storage" width="220" />
     </a>
 </center>
@@ -85,7 +85,7 @@ NxDB offers a flexible storage layer that can seamlessly integrate with differen
 
 
 ### NoSQL JSON Documents Are a Better Fit for UIs
-NoSQL [JSON documents](./json-database.md), used by [NxDB](https://nxdb.nxpkg.github.io/), are well-suited for user interfaces. They provide a natural and efficient way to structure and display data in web applications.
+NoSQL [JSON documents](./json-database.md), used by [NxDB](https://nxdb.khulnasoft.com/), are well-suited for user interfaces. They provide a natural and efficient way to structure and display data in web applications.
 
 ### NoSQL Has Better TypeScript Support Compared to SQL
 NxDB boasts robust TypeScript support, which is beneficial for developers who prefer type safety and code predictability in their projects.

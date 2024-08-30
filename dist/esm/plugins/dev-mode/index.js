@@ -40,9 +40,9 @@ export var NxDBDevModePlugin = {
   nxdb: true,
   init: () => {
     if (showDevModeWarning) {
-      console.warn(['-------------- NxDB dev-mode warning -------------------------------', 'you are seeing this because you use the NxDB dev-mode plugin https://nxdb.nxpkg.github.io/dev-mode.html?console=dev-mode ', 'This is great in development mode, because it will run many checks to ensure', 'that you use NxDB correct. If you see this in production mode,', 'you did something wrong because the dev-mode plugin will decrease the performance.', '', '🤗 Hint: To get the most out of NxDB, check out the Premium Plugins', 'to get access to faster storages and more professional features: https://nxdb.nxpkg.github.io/premium?console=dev-mode ', '', 'You can disable this warning by calling disableWarnings() from the dev-mode plugin.',
+      console.warn(['-------------- NxDB dev-mode warning -------------------------------', 'you are seeing this because you use the NxDB dev-mode plugin https://nxdb.khulnasoft.com/dev-mode.html?console=dev-mode ', 'This is great in development mode, because it will run many checks to ensure', 'that you use NxDB correct. If you see this in production mode,', 'you did something wrong because the dev-mode plugin will decrease the performance.', '', '🤗 Hint: To get the most out of NxDB, check out the Premium Plugins', 'to get access to faster storages and more professional features: https://nxdb.khulnasoft.com/premium?console=dev-mode ', '', 'You can disable this warning by calling disableWarnings() from the dev-mode plugin.',
       // '',
-      // 'Also take part in the NxDB User Survey: https://nxdb.nxpkg.github.io/survey.html',
+      // 'Also take part in the NxDB User Survey: https://nxdb.khulnasoft.com/survey.html',
       '---------------------------------------------------------------------'].join('\n'));
     }
   },

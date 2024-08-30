@@ -8,4 +8,4 @@ Instead check out the [electron example](../electron/).
 
 ## Related
 
-- [Comparison of Electron Databases](https://nxdb.nxpkg.github.io/electron-database.html)
+- [Comparison of Electron Databases](https://nxdb.khulnasoft.com/electron-database.html)

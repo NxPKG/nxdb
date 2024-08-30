@@ -140,7 +140,7 @@ export var RxCollectionBase = /*#__PURE__*/function () {
 
   /**
    * Manually call the cleanup function of the storage.
-   * @link https://nxdb.nxpkg.github.io/cleanup.html
+   * @link https://nxdb.khulnasoft.com/cleanup.html
    */;
   _proto.cleanup = function cleanup(_minimumDeletedTime) {
     ensureRxCollectionIsNotDestroyed(this);

@@ -5,7 +5,7 @@ slug: nxdb-tradeoffs.html
 
 # NxDB Tradeoffs
 
-[NxDB](https://nxdb.nxpkg.github.io) is client-side, offline first Database for JavaScript applications.
+[NxDB](https://nxdb.khulnasoft.com) is client-side, offline first Database for JavaScript applications.
 While NxDB could be used on the server side, most people use it on the client side together with an UI based application.
 Therefore NxDB was optimized for client side applications and had to take completely different tradeoffs than what a server side database would do.
 

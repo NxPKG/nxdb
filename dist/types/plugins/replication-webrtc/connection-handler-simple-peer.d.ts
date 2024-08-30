@@ -32,7 +32,7 @@ export type SimplePeerConfig = SimplePeerOptions['config'];
 export type SimplePeerConnectionHandlerOptions = {
     /**
      * If no server is specified, the default signaling server
-     * from signaling.nxdb.nxpkg.github.io is used.
+     * from signaling.nxdb.khulnasoft.com is used.
      * This server is not reliable and you should use
      * your own signaling server instead.
      */

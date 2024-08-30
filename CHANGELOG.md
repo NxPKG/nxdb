@@ -11,7 +11,7 @@
 
 ### 15.32.0 (26 August 2024)
 
-- ADD [Fulltext Search Plugin](https://nxdb.nxpkg.github.io/fulltext-search.html)
+- ADD [Fulltext Search Plugin](https://nxdb.khulnasoft.com/fulltext-search.html)
 - FIX `RangeError: Invalid count value` error in the OPFS and filesystem storage on cleanups.
 
 ### 15.31.4 (22 August 2024)
@@ -28,7 +28,7 @@
 
 ### 15.31.0 (14 August 2024)
 
-- ADD [RxPipeline Plugin](https://nxdb.nxpkg.github.io/rx-pipeline.html).
+- ADD [RxPipeline Plugin](https://nxdb.khulnasoft.com/rx-pipeline.html).
 - FIX (denoKV RxStorage) retry writes when db is locked.
 
 ### 15.30.2 (5 August 2024)
@@ -53,7 +53,7 @@
 
 ### 15.28.1 (19 July 2024)
 
-- ADD storage bucket support to the [IndexedDB RxStorage](https://nxdb.nxpkg.github.io/rx-storage-indexeddb.html).
+- ADD storage bucket support to the [IndexedDB RxStorage](https://nxdb.khulnasoft.com/rx-storage-indexeddb.html).
 - FIX error when calling bulkUpsert() with multiple docs where one fails and one suceeds.
 
 ### 15.28.0 (9 July 2024)
@@ -81,7 +81,7 @@
 
 ### 15.24.0 (9 June 2024)
 
-- Opened the [NxDB User Survey 2024](https://nxdb.nxpkg.github.io/survey)
+- Opened the [NxDB User Survey 2024](https://nxdb.khulnasoft.com/survey)
 - FIX rx-state multi instance observable broken [#6084](https://github.com/nxpkg/nxdb/pull/6084)
 
 ### 15.23.0 (29 May 2024)
@@ -91,9 +91,9 @@
 ### 15.22.0 (23 May 2024)
 
 - Add missing extensions error field to errorToPlainJson [#6029](https://github.com/nxpkg/nxdb/pull/6029)
-- ADD dedicated [errors page](https://nxdb.nxpkg.github.io/errors.html)
+- ADD dedicated [errors page](https://nxdb.khulnasoft.com/errors.html)
 - FIX randomly failing replication test
-- ADD non-premium console.log on the [LokiJS RxStorage](https://nxdb.nxpkg.github.io/rx-storage-lokijs.html#disabling-the-non-premium-console-log)
+- ADD non-premium console.log on the [LokiJS RxStorage](https://nxdb.khulnasoft.com/rx-storage-lokijs.html#disabling-the-non-premium-console-log)
 
 ### 15.21.3 (20 May 2024)
 
@@ -103,8 +103,8 @@
 
 - FIX `collection.remove()` must end up with the correct RxCollection state across tabs. [5721](https://github.com/nxpkg/nxdb/issues/5721)
 - ADD `RxCollection.onRemove` hooks to detect the removing of a RxCollection across tabs.
-- IMPROVE performance of insert to [IndexedDB](https://nxdb.nxpkg.github.io/rx-storage-indexeddb.html)
-- ADD non-premium console.log on the [Dexie.js RxStorage](https://nxdb.nxpkg.github.io/rx-storage-dexie.html#disabling-the-non-premium-console-log)
+- IMPROVE performance of insert to [IndexedDB](https://nxdb.khulnasoft.com/rx-storage-indexeddb.html)
+- ADD non-premium console.log on the [Dexie.js RxStorage](https://nxdb.khulnasoft.com/rx-storage-dexie.html#disabling-the-non-premium-console-log)
 
 ### 15.20.0 (12 May 2024)
 
@@ -118,7 +118,7 @@
 
 ### 15.19.0 (29 April 2024)
 
-- ADD the new [Memory-Mapped RxStorage](https://nxdb.nxpkg.github.io/rx-storage-memory-mapped.html), a better alternative for the Memory-Synced RxStorage.
+- ADD the new [Memory-Mapped RxStorage](https://nxdb.khulnasoft.com/rx-storage-memory-mapped.html), a better alternative for the Memory-Synced RxStorage.
 
 ### 15.18.6 (29 April 2024)
 
@@ -158,14 +158,14 @@
 
 ### 15.15.0 (27 March 2024)
 
-- ADD `PreactSignalsRxReactivityFactory` to use [custom reactivity](https://nxdb.nxpkg.github.io/reactivity.html) with **preact signals** instead of observables.
-- ADD `VueRxReactivityFactory` to use [custom reactivity](https://nxdb.nxpkg.github.io/reactivity.html) with **vue shallow refs** instead of observables.
+- ADD `PreactSignalsRxReactivityFactory` to use [custom reactivity](https://nxdb.khulnasoft.com/reactivity.html) with **preact signals** instead of observables.
+- ADD `VueRxReactivityFactory` to use [custom reactivity](https://nxdb.khulnasoft.com/reactivity.html) with **vue shallow refs** instead of observables.
 - ADD(reactivity) pass reference to `RxDatabase` to `fromObservable()`
 
 ### 15.14.0 (25 March 2024)
 
-- ADD [Fastify adapter to RxServer](https://nxdb.nxpkg.github.io/rx-server.html)
-- ADD [Koa adapter to RxServer](https://nxdb.nxpkg.github.io/rx-server.html)
+- ADD [Fastify adapter to RxServer](https://nxdb.khulnasoft.com/rx-server.html)
+- ADD [Koa adapter to RxServer](https://nxdb.khulnasoft.com/rx-server.html)
 
 ### 15.13.4 (24 March 2024)
 
@@ -181,7 +181,7 @@
 
 ### 15.12.0 (16 March 2024)
 
-- [SQLite RxStorage](https://nxdb.nxpkg.github.io/rx-storage-sqlite.html) add support to use Webassembly SQLite in the browser
+- [SQLite RxStorage](https://nxdb.khulnasoft.com/rx-storage-sqlite.html) add support to use Webassembly SQLite in the browser
 - FIX(Lokisjs RxStorage) always use slice() for applying offset and limit [#5757](https://github.com/nxpkg/nxdb/pull/5757)
 - FIX randomly failing lokijs and denokv test [#5765](https://github.com/nxpkg/nxdb/pull/5765)
 
@@ -189,15 +189,15 @@
 
 ### 15.11.0 (10 March 2024)
 
-- ADD [RxState](https://nxdb.nxpkg.github.io/rx-state.html): A convenient state library to store, fetch and observe complex json data that is persisted into NxDB.
+- ADD [RxState](https://nxdb.khulnasoft.com/rx-state.html): A convenient state library to store, fetch and observe complex json data that is persisted into NxDB.
 - ADD automatically extend the RxDocument type so it knows about the `RxDocument.myField$` observables.
 - ADD check to ensure `Infinity` is not used when defining index sizes in the `RxJsonSchema`
 - FIX do not automatically set `multiInstance: false` for shared worker storage databases.
 
 ### 15.10.0 (27 February 2024)
 
-- IMPROVE [OPFS RxStorage](https://nxdb.nxpkg.github.io/rx-storage-opfs.html) performance.
-- ADD `usesRxDatabaseInWorker` option to the [OPFS RxStorage](https://nxdb.nxpkg.github.io/rx-storage-opfs.html).
+- IMPROVE [OPFS RxStorage](https://nxdb.khulnasoft.com/rx-storage-opfs.html) performance.
+- ADD `usesRxDatabaseInWorker` option to the [OPFS RxStorage](https://nxdb.khulnasoft.com/rx-storage-opfs.html).
 - ADD `getRxStorageOPFSMainThread()` to run OPFS from the main thread instead of a worker for less latency.
 
 ### 15.9.1 (21 February 2024)
@@ -214,7 +214,7 @@
 
 ### 15.8.0 (10 February 2024)
 
-- ADD support for [custom reactivity factories](https://nxdb.nxpkg.github.io/reactivity.html) like angular signals or vue template refs.
+- ADD support for [custom reactivity factories](https://nxdb.khulnasoft.com/reactivity.html) like angular signals or vue template refs.
 
 ### 15.7.0 (7 February 2024)
 
@@ -237,7 +237,7 @@
 
 ### 15.5.0 (30 January 2024)
 
-- ADD [RxServer](https://nxdb.nxpkg.github.io/rx-server.html) 🎉
+- ADD [RxServer](https://nxdb.khulnasoft.com/rx-server.html) 🎉
 - ADD Optionally supress dev mode Warning [#5556](https://github.com/nxpkg/nxdb/issues/5556)
 
 ### 15.4.3 (28 January 2024)
@@ -258,7 +258,7 @@
 
 ### 15.3.0 (15 January 2024)
 
-- ADD tutorial on [how to start a HTTP replication with a custom server](https://nxdb.nxpkg.github.io/replication-http.html)
+- ADD tutorial on [how to start a HTTP replication with a custom server](https://nxdb.khulnasoft.com/replication-http.html)
 - FIX `.count()` broken on key-compression plugin [#5492](https://github.com/nxpkg/nxdb/pull/5492)
 - UPDATE dexie to version `4.0.1-beta.6` [#5469](https://github.com/nxpkg/nxdb/pull/5469)
 
@@ -277,7 +277,7 @@
 
 🚀 **NxDB v15 is released**
 
-- A list of changes for NxDB v15 can be found [here](https://nxdb.nxpkg.github.io/releases/15.0.0.html)
+- A list of changes for NxDB v15 can be found [here](https://nxdb.khulnasoft.com/releases/15.0.0.html)
 
 ### 14.17.1 (24 September 2023)
 
@@ -287,7 +287,7 @@
 
 - Expose path in validate-z-schema error logs [#4900](https://github.com/nxpkg/nxdb/pull/4900)
 - ADD options for the worker storages [#4925](https://github.com/nxpkg/nxdb/issues/4925)
-- ADD the [MongoDB RxStorage](https://nxdb.nxpkg.github.io/rx-storage-mongodb.html)
+- ADD the [MongoDB RxStorage](https://nxdb.khulnasoft.com/rx-storage-mongodb.html)
 
 ### 14.16.0 (21 August 2023)
 
@@ -314,13 +314,13 @@
 
 ### 14.14.0 (7 June 2023)
 
-- ADD [NATS replication](https://nxdb.nxpkg.github.io/replication-nats.html)
+- ADD [NATS replication](https://nxdb.khulnasoft.com/replication-nats.html)
 
 ### 14.13.0 (2 June 2023)
 
 - Add new hooks in the replication write [#4754](https://github.com/nxpkg/nxdb/pull/4754)
-- REFACTOR(docs) [quickstart page](https://nxdb.nxpkg.github.io/quickstart.html)
-- REFACTOR(docs) [landing page](https://nxdb.nxpkg.github.io/)
+- REFACTOR(docs) [quickstart page](https://nxdb.khulnasoft.com/quickstart.html)
+- REFACTOR(docs) [landing page](https://nxdb.khulnasoft.com/)
 
 ### 14.12.1 (30 May 2023)
 
@@ -348,16 +348,16 @@
 
 ### 14.11.0 (26 April 2023)
 
-- ADD Links to [NxDB User Survey 2023](https://nxdb.nxpkg.github.io/survey.html)
+- ADD Links to [NxDB User Survey 2023](https://nxdb.khulnasoft.com/survey.html)
 - FIX better support for as const schemas [#4686](https://github.com/nxpkg/nxdb/pull/4686)
 
 ### 14.10.0 (25 April 2023)
 
-- ADD [Filesystem Node RxStorage](https://nxdb.nxpkg.github.io/rx-storage-filesystem-node.html)
+- ADD [Filesystem Node RxStorage](https://nxdb.khulnasoft.com/rx-storage-filesystem-node.html)
 
 ### 14.9.0 (20 April 2023)
 
-- ADD [attachment compression plugin](https://nxdb.nxpkg.github.io/rx-attachment.md#attachment-compression)
+- ADD [attachment compression plugin](https://nxdb.khulnasoft.com/rx-attachment.md#attachment-compression)
 - REFACTOR Use custom `appendToArray()` instead of slow `Array.concat()`
 
 ### 14.8.3 (16 April 2023)
@@ -379,7 +379,7 @@
 
 ### 14.7.0 (11 April 2023)
 
-- ADD [OPFS RxStorage](https://nxdb.nxpkg.github.io/rx-storage-opfs.html) for browsers (premium).
+- ADD [OPFS RxStorage](https://nxdb.khulnasoft.com/rx-storage-opfs.html) for browsers (premium).
 - ADD Check to ensure that the primaryKey does not contain a double-quote.
 
 ### 14.6.5 (10 April 2023)
@@ -501,7 +501,7 @@
 
 - FIX(websocket remote storage) custom request not working with multiple clients
 
-### 14.0.0 (8 February 2023) BREAKING [read the announcement](https://nxdb.nxpkg.github.io/releases/14.0.0.html)
+### 14.0.0 (8 February 2023) BREAKING [read the announcement](https://nxdb.khulnasoft.com/releases/14.0.0.html)
 
 - Remove the deprecated PouchDB RxStorage.
 - REMOVE old `replication-couchdb` plugin. Rename `replication-couchdb-new` to `replication-couchdb`.
@@ -582,7 +582,7 @@ Bugfixes:
 
 ### 13.15.3 (13 December 2022)
 
-- ADD `$regex` support to the [SQLite RxStorage](https://nxdb.nxpkg.github.io/rx-storage-sqlite.html)
+- ADD `$regex` support to the [SQLite RxStorage](https://nxdb.khulnasoft.com/rx-storage-sqlite.html)
 
 ### 13.15.2 (11 December 2022)
 
@@ -592,7 +592,7 @@ Bugfixes:
 
 ### 13.15.0 (10 December 2022)
 
-- ADD [SharedWorker RxStorage Plugin](https://nxdb.nxpkg.github.io/rx-storage-shared-worker.html)
+- ADD [SharedWorker RxStorage Plugin](https://nxdb.khulnasoft.com/rx-storage-shared-worker.html)
 
 ### 13.14.3 (9 December 2022)
 
@@ -604,7 +604,7 @@ Bugfixes:
 
 ### 13.14.0 (9 December 2022)
 
-- ADD [Remote RxStorage Plugin](https://nxdb.nxpkg.github.io/rx-storage-remote.html)
+- ADD [Remote RxStorage Plugin](https://nxdb.khulnasoft.com/rx-storage-remote.html)
 
 ### 13.13.7 (6 December 2022)
 
@@ -629,7 +629,7 @@ Bugfixes:
 
 ### 13.13.0 (30 November 2022)
 
-- ADD [Firestore Replication Plugin](https://nxdb.nxpkg.github.io/replication-firestore.html)
+- ADD [Firestore Replication Plugin](https://nxdb.khulnasoft.com/replication-firestore.html)
 - FIX run the unit tests for the migration plugin on all storages.
 
 ### 13.12.0 (29 November 2022)
@@ -637,7 +637,7 @@ Bugfixes:
 - ADD [electron ipcRenderer plugin](./docs-src/electron.md) which can be used in Electron.js to run the RxStorage in the main process and the RxDatabase in the renderer processes.
 - Removed the electron-remote example because `@electron/remote` is deprecated.
 - FIX emit false on active$ after replication is done [#4136](https://github.com/nxpkg/nxdb/pull/4136) Thanks [@maxnowack](https://github.com/maxnowack)
-- Deprecated the PouchDB RxStorage, [read this](https://nxdb.nxpkg.github.io/questions-answers.html#why-is-the-pouchdb-rxstorage-deprecated)
+- Deprecated the PouchDB RxStorage, [read this](https://nxdb.khulnasoft.com/questions-answers.html#why-is-the-pouchdb-rxstorage-deprecated)
 
 ### 13.11.1 (23 November 2022)
 
@@ -651,7 +651,7 @@ Bugfixes:
 
 ### 13.10.0 (10 November 2022)
 
-- ADD [replication-couchdb-new plugin](./docs-src/replication-couchdb-new.md) which can be used to replicate **any** [RxStorage](https://nxdb.nxpkg.github.io/rx-storage.html) with a CouchDB endpoint.
+- ADD [replication-couchdb-new plugin](./docs-src/replication-couchdb-new.md) which can be used to replicate **any** [RxStorage](https://nxdb.khulnasoft.com/rx-storage.html) with a CouchDB endpoint.
 - ADD skip replication `retryTime` if `navigator.onLine` becomes `true`.
 - FIX `active$` should emit during replication [#4117](https://github.com/nxpkg/nxdb/pull/4117) Thanks [@maxnowack](https://github.com/maxnowack)
 
@@ -680,9 +680,9 @@ Bugfixes:
 
 ### 13.8.0 (31 October 2022)
 
-- Added [RxCollection.count()](https://nxdb.nxpkg.github.io/rx-query.html#count) queries. [#4096](https://github.com/nxpkg/nxdb/pull/4096)
+- Added [RxCollection.count()](https://nxdb.khulnasoft.com/rx-query.html#count) queries. [#4096](https://github.com/nxpkg/nxdb/pull/4096)
 - REFACTOR index boundary usage for better performance.
-- FIX critical bug in query correctness. **IMPORTANT:** If you use the RxStorage [IndexedDB](https://nxdb.nxpkg.github.io/rx-storage-indexeddb.html) or [FoundationDB](https://nxdb.nxpkg.github.io/rx-storage-foundationdb.html), you have to rebuild the indexes by increasing your schema version and running a migration. [#4098](https://github.com/nxpkg/nxdb/pull/4098)
+- FIX critical bug in query correctness. **IMPORTANT:** If you use the RxStorage [IndexedDB](https://nxdb.khulnasoft.com/rx-storage-indexeddb.html) or [FoundationDB](https://nxdb.khulnasoft.com/rx-storage-foundationdb.html), you have to rebuild the indexes by increasing your schema version and running a migration. [#4098](https://github.com/nxpkg/nxdb/pull/4098)
 - FIX Typo in CRDT Plugin: `RxDDcrdtPlugin` is now `NxDBcrdtPlugin` [#4094](https://github.com/nxpkg/nxdb/pull/4094) Thanks [@jwallet](https://github.com/jwallet)
 
 ### 13.7.0 (24 October 2022)
@@ -861,7 +861,7 @@ Bugfixes:
 ### 12.6.14 (7 July 2022)
 
 - Moved from gitter to [discord](https://discord.gg/gNAuePsN)
-- ADD `bulkSize` option to [Memory Synced RxStorage](https://nxdb.nxpkg.github.io/rx-storage-memory-synced.html)
+- ADD `bulkSize` option to [Memory Synced RxStorage](https://nxdb.khulnasoft.com/rx-storage-memory-synced.html)
 
 ### 12.6.13 (6 July 2022)
 
@@ -869,7 +869,7 @@ Bugfixes:
 
 ### 12.6.11 (5 July 2022)
 
-- Add the [Memory Synced RxStorage](https://nxdb.nxpkg.github.io/rx-storage-memory-synced.html) to the premium plugins.
+- Add the [Memory Synced RxStorage](https://nxdb.khulnasoft.com/rx-storage-memory-synced.html) to the premium plugins.
 
 ### 12.6.10 (5 July 2022)
 
@@ -1035,7 +1035,7 @@ Bugfixes:
 
 Features:
   - Improve emitted errors of the GraphQL replication [#3630](https://github.com/nxpkg/nxdb/pull/3630) Thanks [@nirvdrum](https://github.com/nirvdrum)
-  - Added Dexie.js based `RxStorage`. [Read the docs](https://nxdb.nxpkg.github.io/rx-storage-dexie.html)
+  - Added Dexie.js based `RxStorage`. [Read the docs](https://nxdb.khulnasoft.com/rx-storage-dexie.html)
 
 ### 11.4.0 (28 January 2022)
 
@@ -1287,7 +1287,7 @@ Bugfixes:
 ### 9.19.0 (12 May 2021)
 
 Features:
-  - Added the [backup-plugin](https://nxdb.nxpkg.github.io/backup.html)
+  - Added the [backup-plugin](https://nxdb.khulnasoft.com/backup.html)
 
 Other:
   - Updated `rxjs` to version `7.0.1`
@@ -1413,7 +1413,7 @@ Other:
 
 Features:
   - Added subscription parameters for `graphQLSchemaFromRxSchema()`
-  - Added [RxDocument.atomicPatch()](https://nxdb.nxpkg.github.io/rx-document.html#atomicpatch)
+  - Added [RxDocument.atomicPatch()](https://nxdb.khulnasoft.com/rx-document.html#atomicpatch)
 
 Bugfixes:
   - (types) Returned values of `syncGraphQL()` did not type-match with `RxGraphQLReplicationState`
@@ -1462,7 +1462,7 @@ Other:
 ### 9.4.0 (24 July 2020)
 
 Features:
-  - Add cache-replacement-policy for the [QueryCache](https://nxdb.nxdb.nxpkg.github.io/query-cache.html)
+  - Add cache-replacement-policy for the [QueryCache](https://nxdb.nxdb.khulnasoft.com/query-cache.html)
   - GraphQL replication async modifier function [#2367](https://github.com/nxpkg/nxdb/issues/2367)
 
 Bugfixes:
@@ -1500,7 +1500,7 @@ Other:
 
 Features:
   - Added `RxQuery.exec(throwIfMissing: true)`
-  - Added helper functions to [GraphQL replication](https://nxdb.nxpkg.github.io/replication-graphql.html) to generate GraphQL Schemas from the `RxJsonSchema`
+  - Added helper functions to [GraphQL replication](https://nxdb.khulnasoft.com/replication-graphql.html) to generate GraphQL Schemas from the `RxJsonSchema`
 
 Bugfixes:
   - GraphQL replication plugin fires exponentially [#2048](https://github.com/nxpkg/nxdb/issues/2048)
@@ -1513,7 +1513,7 @@ Breaking:
   - Renamed `NxDB.create()` to `createRxDatabase()`
   - Renamed `removeDatabase()` to `removeRxDatabase()`
   - Renamed `plugin()` to `addRxPlugin()`
-  - Replaced plugins `error-messages` and `schema-check` with [dev-mode](https://nxdb.nxdb.nxpkg.github.io/custom-build.html#dev-mode)
+  - Replaced plugins `error-messages` and `schema-check` with [dev-mode](https://nxdb.nxdb.khulnasoft.com/custom-build.html#dev-mode)
   - Moved data migration from core to migration plugin
   - Replaced key-compression implementation with [jsonschema-key-compression](https://github.com/nxpkg/jsonschema-key-compression)
   - Renamed `RxDatabase.queryChangeDetection` to `eventReduce` and set default to `true` (no beta anymore)
@@ -1630,7 +1630,7 @@ Bugfixes:
 ### 8.3.1 (23 August 2019)
 
 Features:
-  - Added `RxQuery.doesDocumentDataMatch()` [read the docs](https://nxdb.nxpkg.github.io/rx-query.html#doesdocumentdatamatch)
+  - Added `RxQuery.doesDocumentDataMatch()` [read the docs](https://nxdb.khulnasoft.com/rx-query.html#doesdocumentdatamatch)
 
 Bugfixes:
   - Attachments not working in electron renderer with IndexedDb adapter [#1371](https://github.com/nxpkg/nxdb/issues/1371) Thanks [@rixo](https://github.com/rixo)
@@ -1642,7 +1642,7 @@ Other:
 ### 8.3.0 (5 August 2019)
 
 Features:
-  - Added a plugin for [GraphQL-replication](https://nxdb.nxpkg.github.io/replication-graphql.html)
+  - Added a plugin for [GraphQL-replication](https://nxdb.khulnasoft.com/replication-graphql.html)
 
 Bugfixes:
   - .populate() returns findOne() on empty string. This results in a random find [#1325](https://github.com/nxpkg/nxdb/issues/1325) Thanks [@PVermeer](https://github.com/PVermeer)
@@ -1814,7 +1814,7 @@ Typings:
 ### 7.5.0 (April 24, 2018)
 
 Features:
-  - Added `RxCollection.insert$`, `RxCollection.update$`, `RxCollection.remove$` [read the docs](https://nxdb.nxpkg.github.io/rx-collection.html#observe-)
+  - Added `RxCollection.insert$`, `RxCollection.update$`, `RxCollection.remove$` [read the docs](https://nxdb.khulnasoft.com/rx-collection.html#observe-)
 
 Other:
   - Added `dangerousRemoveCollectionInfo()` for migrations over nxdb-versions.
@@ -1852,7 +1852,7 @@ Bugfixes:
 ### 7.4.0 (March 9, 2018)
 
 Features:
-  - Added `RxDatabase.server()` to quickly spawn couchdb-compatibe endpoint out of NxDB. Read [this](https://nxdb.nxdb.nxpkg.github.io/custom-build.html#server)
+  - Added `RxDatabase.server()` to quickly spawn couchdb-compatibe endpoint out of NxDB. Read [this](https://nxdb.nxdb.khulnasoft.com/custom-build.html#server)
   - Use `CustomIdleQueue` for atomic updates to enable [#494](https://github.com/nxpkg/nxdb/issues/494)
 
 Bugfixes:
@@ -1885,7 +1885,7 @@ Bugfixes:
 ### 7.3.0 (December 18, 2017)
 
 Features:
-  - Added [ajv-validate](https://nxdb.nxdb.nxpkg.github.io/custom-build.html#ajv-validate)-plugin. Thx [@rybaczewa](https://github.com/rybaczewa)
+  - Added [ajv-validate](https://nxdb.nxdb.khulnasoft.com/custom-build.html#ajv-validate)-plugin. Thx [@rybaczewa](https://github.com/rybaczewa)
 
 Bugfixes:
   - inMemory() throws error when using primary-key [#401](https://github.com/nxpkg/nxdb/issues/401)
@@ -1898,12 +1898,12 @@ Other:
 ## 7.2.0 (December 7, 2017)
 
 Warning:
-  - Removed automatic import of `pouchdb-adapter-memory` for in-memory-collections. Read [this](https://nxdb.nxdb.nxpkg.github.io/in-memory.html)
+  - Removed automatic import of `pouchdb-adapter-memory` for in-memory-collections. Read [this](https://nxdb.nxdb.khulnasoft.com/in-memory.html)
 
 Features:
-  - Added [options-parameter](https://nxdb.nxdb.nxpkg.github.io/plugins.html#options)
+  - Added [options-parameter](https://nxdb.nxdb.khulnasoft.com/plugins.html#options)
   - Added `postCreateRxDocument` [plugin-hook](https://github.com/nxpkg/nxdb/blob/master/src/hooks.js)
-  - Added [no-validate-plugin](https://nxdb.nxdb.nxpkg.github.io/custom-build.html#no-validate)
+  - Added [no-validate-plugin](https://nxdb.nxdb.khulnasoft.com/custom-build.html#no-validate)
   - Added typings for `RxPlugin`
 
 Bugfixes:
@@ -1913,7 +1913,7 @@ Other:
   - Do not throw errors if the same plugin is added multiple times
   - Allow getting the collection via `RxDatabase().collection(name: string)`
   - Allow recreating the collection with different schema, if it has no documents
-  - Split out error-messages into separate [own plugin](https://nxdb.nxdb.nxpkg.github.io/custom-build.html#error-messages)
+  - Split out error-messages into separate [own plugin](https://nxdb.nxdb.khulnasoft.com/custom-build.html#error-messages)
 
 ## 7.1.1 (November 27, 2017)
 
@@ -1939,10 +1939,10 @@ Breaking:
   - Improved typings [#329](https://github.com/nxpkg/nxdb/pull/329) by [@ihadeed](https://github.com/ihadeed)
 
 Features:
-  - Added [attachments](https://nxdb.nxdb.nxpkg.github.io/rx-attachment.html)
-  - Added [final fields](https://nxdb.nxdb.nxpkg.github.io/rx-schema.html#final)
-  - Added [inMemory](https://nxdb.nxdb.nxpkg.github.io/in-memory.html)-collections
-  - Added [local documents](https://nxdb.nxdb.nxpkg.github.io/rx-local-document.html)
+  - Added [attachments](https://nxdb.nxdb.khulnasoft.com/rx-attachment.html)
+  - Added [final fields](https://nxdb.nxdb.khulnasoft.com/rx-schema.html#final)
+  - Added [inMemory](https://nxdb.nxdb.khulnasoft.com/in-memory.html)-collections
+  - Added [local documents](https://nxdb.nxdb.khulnasoft.com/rx-local-document.html)
 
 Bugfixes:
   - Added error-message when you json-import on a non-existing collection [#319](https://github.com/nxpkg/nxdb/issues/319)
@@ -1961,18 +1961,18 @@ Other:
 Breaking:
   - Filenames are now kebab-case
   - `pouchdb-replication`-plugin is now imported by default, do not import it by your own.
-  - `NxDB.create()` throws if you create the same database twice. (You can use [ignoreDuplicate](https://nxdb.nxdb.nxpkg.github.io/rx-database.html#ignoreduplicate))
+  - `NxDB.create()` throws if you create the same database twice. (You can use [ignoreDuplicate](https://nxdb.nxdb.khulnasoft.com/rx-database.html#ignoreduplicate))
 
 Features:
-  - Added [RxDatabase.requestIdlePromise()](https://nxdb.nxdb.nxpkg.github.io/rx-database.html#requestidlepromise)
-  - Added [NxDB.checkAdapter()](https://nxdb.nxdb.nxpkg.github.io/rx-database.html#checkadapter)
-  - Added [ignoreDuplicate](https://nxdb.nxdb.nxpkg.github.io/rx-database.html#ignoreduplicate)-parameter to `NxDB.create()`
+  - Added [RxDatabase.requestIdlePromise()](https://nxdb.nxdb.khulnasoft.com/rx-database.html#requestidlepromise)
+  - Added [NxDB.checkAdapter()](https://nxdb.nxdb.khulnasoft.com/rx-database.html#checkadapter)
+  - Added [ignoreDuplicate](https://nxdb.nxdb.khulnasoft.com/rx-database.html#ignoreduplicate)-parameter to `NxDB.create()`
 
 Custom-Build:
   - Custom-build is now out of beta
-  - If you use a custom-build, you have to change the import-paths. See [custom-build](https://nxdb.nxdb.nxpkg.github.io/custom-build.html)
-  - Replication is now its own module [see](https://nxdb.nxdb.nxpkg.github.io/custom-build.html#replication)
-  - Json import/exportis now its own module [see](https://nxdb.nxdb.nxpkg.github.io/custom-build.html#json-dump)
+  - If you use a custom-build, you have to change the import-paths. See [custom-build](https://nxdb.nxdb.khulnasoft.com/custom-build.html)
+  - Replication is now its own module [see](https://nxdb.nxdb.khulnasoft.com/custom-build.html#replication)
+  - Json import/exportis now its own module [see](https://nxdb.nxdb.khulnasoft.com/custom-build.html#json-dump)
 
 Bugfixes:
   - Allow null-selector [#267](https://github.com/nxpkg/nxdb/issues/267)
@@ -1992,8 +1992,8 @@ Other:
 ## 5.3.0 (August 25, 2017)
 
 Features:
-  - Added [custom builds](https://nxdb.nxdb.nxpkg.github.io/custom-build.html)
-  - Added [plugin-support](https://nxdb.nxdb.nxpkg.github.io/plugins.html)
+  - Added [custom builds](https://nxdb.nxdb.khulnasoft.com/custom-build.html)
+  - Added [plugin-support](https://nxdb.nxdb.khulnasoft.com/plugins.html)
   - Added default exports. Use `import NxDB from 'nxdb'` instead of `import * as NxDB from 'nxdb'`
 
 Bugfixes:
@@ -2006,8 +2006,8 @@ Quickfix because of new [pouchdb-import](https://github.com/pouchdb/pouchdb/issu
 ## 5.2.0 (July 17, 2017)
 
 Features:
-  - Added [RxCollection.atomicUpsert](https://nxdb.nxdb.nxpkg.github.io/rx-collection.html#atomicupsert)
-  - Added [default values](https://nxdb.nxdb.nxpkg.github.io/rx-schema.html#default)
+  - Added [RxCollection.atomicUpsert](https://nxdb.nxdb.khulnasoft.com/rx-collection.html#atomicupsert)
+  - Added [default values](https://nxdb.nxdb.khulnasoft.com/rx-schema.html#default)
   - Added generic typings so it's easier to be extended [see](https://github.com/nxpkg/nxdb/blob/master/examples/angular2/app/src/NxDB.d.ts)
 
 Other:
@@ -2039,16 +2039,16 @@ Other:
 ## 5.0.0 (June 20, 2017) BREAKING
 
 Features:
-  - Added `RxDocument.atomicUpdate()` [docs](https://nxdb.nxdb.nxpkg.github.io/rx-document.html#atomicUpdate)
-  - Added `RxCollection.remove()` [docs](https://nxdb.nxdb.nxpkg.github.io/rx-collection.html#clear)
-  - Added `RxDatabase.remove()` [docs](https://nxdb.nxdb.nxpkg.github.io/rx-database.html#remove)
-  - Added options for `RxCollection.sync()`: direction and pouchdb-replication-settings [docs](https://nxdb.nxdb.nxpkg.github.io/rx-collection.html#sync)
-  - Added query-param for `RxCollection.sync()` to allow selector-based replication [docs](https://nxdb.nxdb.nxpkg.github.io/rx-collection.html#sync)
-  - Added TemporaryDocuments `RxCollection.newDocument()` [docs](https://nxdb.nxdb.nxpkg.github.io/rx-collection.html#newDocument)
+  - Added `RxDocument.atomicUpdate()` [docs](https://nxdb.nxdb.khulnasoft.com/rx-document.html#atomicUpdate)
+  - Added `RxCollection.remove()` [docs](https://nxdb.nxdb.khulnasoft.com/rx-collection.html#clear)
+  - Added `RxDatabase.remove()` [docs](https://nxdb.nxdb.khulnasoft.com/rx-database.html#remove)
+  - Added options for `RxCollection.sync()`: direction and pouchdb-replication-settings [docs](https://nxdb.nxdb.khulnasoft.com/rx-collection.html#sync)
+  - Added query-param for `RxCollection.sync()` to allow selector-based replication [docs](https://nxdb.nxdb.khulnasoft.com/rx-collection.html#sync)
+  - Added TemporaryDocuments `RxCollection.newDocument()` [docs](https://nxdb.nxdb.khulnasoft.com/rx-collection.html#newDocument)
 
 Breaking:
   - `postCreate`-hooks can no longer be async
-  - `RxCollection.sync()` completely changed [docs](https://nxdb.nxdb.nxpkg.github.io/replication.html)
+  - `RxCollection.sync()` completely changed [docs](https://nxdb.nxdb.khulnasoft.com/replication.html)
 
 Other:
   - Added .babelrc to .npmignore
@@ -2057,7 +2057,7 @@ Other:
 ## 4.1.0 (June 7, 2017)
 
 Features:
-  - Added `postCreate`-[hook](https://nxdb.nxdb.nxpkg.github.io/middleware.html#postCreate) [#165](https://github.com/nxpkg/nxdb/issues/165)
+  - Added `postCreate`-[hook](https://nxdb.nxdb.khulnasoft.com/middleware.html#postCreate) [#165](https://github.com/nxpkg/nxdb/issues/165)
   - Added `RxQuery.update()` and `RxDocument.update()` [#143](https://github.com/nxpkg/nxdb/issues/143) Thanks [@lgandecki](https://github.com/lgandecki)
 
 Bugfixes:
@@ -2085,12 +2085,12 @@ Bugfixes:
 ## 4.0.0 (May 5, 2017) BREAKING
 
 Breaking:
-  - RxQuery's are now [immutable](https://nxdb.nxdb.nxpkg.github.io/rx-query.html#notice-rxquerys-are-immutable)
+  - RxQuery's are now [immutable](https://nxdb.nxdb.khulnasoft.com/rx-query.html#notice-rxquerys-are-immutable)
   - RxQuery.$ does not emit `null` when running
   - RxQuery will sort by primary (ASC) as default
 
 Features:
-  - Added [QueryChangeDetection](https://nxdb.nxdb.nxpkg.github.io/query-change-detection.html) (in **beta**, disabled by default)
+  - Added [QueryChangeDetection](https://nxdb.nxdb.khulnasoft.com/query-change-detection.html) (in **beta**, disabled by default)
 
 Other:
   - upgraded to pouchdb [v6.2.0](https://pouchdb.com/2017/04/20/pouchdb-6.2.0.html)
@@ -2110,7 +2110,7 @@ Bugfixes:
 ## 3.0.6 (March 29, 2017)
 
 Features:
-  - [Population](https://nxdb.nxdb.nxpkg.github.io/population.html) can now be done on arrays
+  - [Population](https://nxdb.nxdb.khulnasoft.com/population.html) can now be done on arrays
 
 Other:
   - improved typings
@@ -2135,8 +2135,8 @@ Bugfixes:
 ## 3.0.3 (March 6, 2017)
 
 Features:
-  - Added RxDocument.[deleted](https://nxdb.nxdb.nxpkg.github.io/rx-document.html#get-deleted)
-  - Added RxDocument.[synced](https://nxdb.nxdb.nxpkg.github.io/rx-document.html#get-synced)
+  - Added RxDocument.[deleted](https://nxdb.nxdb.khulnasoft.com/rx-document.html#get-deleted)
+  - Added RxDocument.[synced](https://nxdb.nxdb.khulnasoft.com/rx-document.html#get-synced)
   - moved from [jsonschema](https://www.npmjs.com/package/jsonschema) to [is-my-json-valid](https://www.npmjs.com/package/is-my-json-valid)
 
 Bugfixes:
@@ -2155,14 +2155,14 @@ Bugfixes:
 ## 3.0.0 (February 27, 2017) BREAKING
 
 Features:
-  - added [DataMigration](https://nxdb.nxdb.nxpkg.github.io/data-migration.html)
-  - added [ORM/DRM](https://nxdb.nxdb.nxpkg.github.io/orm.html)-capabilities
-  - added [RxQuery.remove()](https://nxdb.nxdb.nxpkg.github.io/rx-query.html)
-  - added [Population](https://nxdb.nxdb.nxpkg.github.io/population.html)
-  - added [RxDocument.deleted$](https://nxdb.nxdb.nxpkg.github.io/rx-document.html#deleted)
-  - added [RxDocument.synced$](https://nxdb.nxdb.nxpkg.github.io/rx-document.html#synced)
-  - added [RxDocument.resnyc()](https://nxdb.nxdb.nxpkg.github.io/rx-document.html#resync)
-  - added [RxCollection.upsert()](https://nxdb.nxdb.nxpkg.github.io/rx-document.html#synced)
+  - added [DataMigration](https://nxdb.nxdb.khulnasoft.com/data-migration.html)
+  - added [ORM/DRM](https://nxdb.nxdb.khulnasoft.com/orm.html)-capabilities
+  - added [RxQuery.remove()](https://nxdb.nxdb.khulnasoft.com/rx-query.html)
+  - added [Population](https://nxdb.nxdb.khulnasoft.com/population.html)
+  - added [RxDocument.deleted$](https://nxdb.nxdb.khulnasoft.com/rx-document.html#deleted)
+  - added [RxDocument.synced$](https://nxdb.nxdb.khulnasoft.com/rx-document.html#synced)
+  - added [RxDocument.resnyc()](https://nxdb.nxdb.khulnasoft.com/rx-document.html#resync)
+  - added [RxCollection.upsert()](https://nxdb.nxdb.khulnasoft.com/rx-document.html#synced)
   - non-top-level-indexes are now allowed
   - `RxQuery.sort()` now works on non-top-level-indexes
 
@@ -2171,8 +2171,8 @@ Bugfixes:
 
 Breaking:
   - Collection-names must match `^[a-z][a-z0-9]*$` Fixes [#45](https://github.com/nxpkg/nxdb/issues/45)
-  - NxDB.create has new api with destructuring [see](https://nxdb.nxdb.nxpkg.github.io/rx-database.html)
-  - RxDatabase.collection() has new api with destructuring [see](https://nxdb.nxdb.nxpkg.github.io/rx-database.html)
+  - NxDB.create has new api with destructuring [see](https://nxdb.nxdb.khulnasoft.com/rx-database.html)
+  - RxDatabase.collection() has new api with destructuring [see](https://nxdb.nxdb.khulnasoft.com/rx-database.html)
   - schema-fieldnames must match the regex: `^[a-zA-Z][[a-zA-Z0-9_]*]?[a-zA-Z0-9]$`
   - `RxDatabase.collection()` only to create collection, use `myDatabase.heroes` to get existing one
   - `NxDB.create()` multiInstance is now true by default
@@ -2230,12 +2230,12 @@ Bugfixes:
 ## 1.7.7 (January 13, 2017)
 
 Features:
-  - add [Proxy-wrapping arround RxDocument](https://nxdb.nxdb.nxpkg.github.io/rx-document.html)
+  - add [Proxy-wrapping arround RxDocument](https://nxdb.nxdb.khulnasoft.com/rx-document.html)
 
 ## 1.6.7 (January 11, 2017)
 
 Features:
-  - add [middleware-hooks](https://nxdb.nxdb.nxpkg.github.io/middleware.html)
+  - add [middleware-hooks](https://nxdb.nxdb.khulnasoft.com/middleware.html)
 
 ## 1.5.6 (December 22, 2016)
 
@@ -2247,7 +2247,7 @@ Bugfixes:
 Features:
   - refactor socket to save db-io
   - wrap BroadcastChannel-API
-  - added [leader-election](https://nxdb.nxdb.nxpkg.github.io/leader-election.html)
+  - added [leader-election](https://nxdb.nxdb.khulnasoft.com/leader-election.html)
   - sync() will only start if db is leader
 
 Bugfixes:

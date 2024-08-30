@@ -5,7 +5,7 @@ slug: rx-state.html
 
 # RxState
 
-RxState is a flexible state library build on top of the [NxDB Database](https://nxdb.nxpkg.github.io/). While NxDB stores similar documents inside of collections, RxState can store any complex JSON data without having a predefined schema.
+RxState is a flexible state library build on top of the [NxDB Database](https://nxdb.khulnasoft.com/). While NxDB stores similar documents inside of collections, RxState can store any complex JSON data without having a predefined schema.
 
 The state is automatically persisted through NxDB and states changes are propagated between browser tabs. Even setting up replication is simple by using the NxDB [Replication feature](./replication.md).
 

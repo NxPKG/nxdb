@@ -322,7 +322,7 @@ export class RxCollectionBase<
 
     /**
      * Manually call the cleanup function of the storage.
-     * @link https://nxdb.nxpkg.github.io/cleanup.html
+     * @link https://nxdb.khulnasoft.com/cleanup.html
      */
     cleanup(_minimumDeletedTime?: number): Promise<boolean> {
         ensureRxCollectionIsNotDestroyed(this);

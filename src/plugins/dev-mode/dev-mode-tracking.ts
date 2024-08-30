@@ -41,7 +41,7 @@ export async function addDevModeTrackingIframe(db: RxDatabase) {
 
     const iframe = document.createElement('iframe');
     iframe.style.display = 'none';
-    iframe.src = 'https://nxdb.nxpkg.github.io/html/dev-mode-iframe.html?version=' + NXDB_VERSION;
+    iframe.src = 'https://nxdb.khulnasoft.com/html/dev-mode-iframe.html?version=' + NXDB_VERSION;
     document.body.appendChild(iframe);
 }
 

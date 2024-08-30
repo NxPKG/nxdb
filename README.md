@@ -5,14 +5,14 @@
 <!--
 | Announcement                                                        |
 | :--: |
-| &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Version **15.0.0** is now released, read the [CHANGELOG](https://nxdb.nxpkg.github.io/releases/15.0.0.html) &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; |
+| &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Version **15.0.0** is now released, read the [CHANGELOG](https://nxdb.khulnasoft.com/releases/15.0.0.html) &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; |
 -->
 
 
 <!--
 | Announcement                                                        |
 | :--: |
-| Please take part in the [NxDB user survey 2023](https://nxdb.nxpkg.github.io/survey.html). This will help me to better plan the steps for the next major release. (takes about 2 minutes)
+| Please take part in the [NxDB user survey 2023](https://nxdb.khulnasoft.com/survey.html). This will help me to better plan the steps for the next major release. (takes about 2 minutes)
 -->
 
 <br />
@@ -25,7 +25,7 @@
 <p align="center">
     <a href="https://github.com/nxpkg/nxdb/releases"><img src="https://img.shields.io/github/v/release/nxpkg/nxdb?color=%23ff00a0&include_prereleases&label=version&sort=semver&style=flat-square"></a>
     &nbsp;
-    <a href="https://nxdb.nxpkg.github.io/tutorials/typescript.html"><img src="https://img.shields.io/npm/types/nxdb?style=flat-square"></a>
+    <a href="https://nxdb.khulnasoft.com/tutorials/typescript.html"><img src="https://img.shields.io/npm/types/nxdb?style=flat-square"></a>
     &nbsp;
     <a href="https://github.com/nxpkg/nxdb/blob/master/LICENSE.txt"><img src="https://img.shields.io/github/license/nxpkg/nxdb?style=flat-square"></a>
     &nbsp;
@@ -35,13 +35,13 @@
 </p>
 
 <p align="center">
- 	  <a href="https://nxdb.nxpkg.github.io/chat"><img src="https://img.shields.io/discord/969553741705539624?label=discord&style=flat-square&color=5a66f6"></a>
+ 	  <a href="https://nxdb.khulnasoft.com/chat"><img src="https://img.shields.io/discord/969553741705539624?label=discord&style=flat-square&color=5a66f6"></a>
 	  &nbsp;
     <a href="https://twitter.com/intent/follow?screen_name=nxdbjs"><img src="https://img.shields.io/badge/twitter-%40nxdbjs-1DA1F2?style=flat-square"></a>
 	  &nbsp;
     <a href="https://www.linkedin.com/company/nxdb"><img src="https://img.shields.io/badge/linkedin-%40nxdb-0e76a8?style=flat-square"></a>
     &nbsp;
-    <a href="https://nxdb.nxpkg.github.io/newsletter"><img src="https://img.shields.io/badge/newsletter-subscribe-e05b29?style=flat-square"></a>
+    <a href="https://nxdb.khulnasoft.com/newsletter"><img src="https://img.shields.io/badge/newsletter-subscribe-e05b29?style=flat-square"></a>
 </p>
 
 
@@ -52,14 +52,14 @@
 </h2>
 
 <p align="justify">
-  NxDB (short for <b>R</b>eactive <b>D</b>ata<b>b</b>ase) is a <a href="https://nxdb.nxpkg.github.io/offline-first.html">local-first</a>, NoSQL-database for JavaScript Applications like Websites, hybrid Apps, Electron-Apps, Progressive Web Apps, Deno and <a href="https://nxdb.nxpkg.github.io/nodejs-database.html">Node.js</a>.
+  NxDB (short for <b>R</b>eactive <b>D</b>ata<b>b</b>ase) is a <a href="https://nxdb.khulnasoft.com/offline-first.html">local-first</a>, NoSQL-database for JavaScript Applications like Websites, hybrid Apps, Electron-Apps, Progressive Web Apps, Deno and <a href="https://nxdb.khulnasoft.com/nodejs-database.html">Node.js</a>.
   Reactive means that you can not only query the current state, but <b>subscribe</b> to all state changes like the result of a query or even a single field of a document.
   This is great for UI-based <b>realtime</b> applications in a way that makes it easy to develop and also has great performance benefits but can also be used to create fast backends in Node.js.<br />
-  NxDB provides an easy to implement <a href="https://nxdb.nxpkg.github.io/replication.html">protocol</a> for realtime <b>replication</b> with your existing infrastructure or one of the plugins for <a href="https://nxdb.nxpkg.github.io/replication-http.html">HTTP</a>, <a href="https://nxdb.nxpkg.github.io/replication-graphql.html">GraphQL</a>, <a href="https://nxdb.nxpkg.github.io/replication-couchdb.html">CouchDB</a>, <a href="https://nxdb.nxpkg.github.io/replication-websocket.html">Websocket</a>, <a href="https://nxdb.nxpkg.github.io/replication-webrtc.html">WebRTC</a>, <a href="https://github.com/marceljuenemann/nxdb-supabase">Supabase</a>, <a href="https://nxdb.nxpkg.github.io/replication-firestore.html">Firestore</a>, <a href="https://nxdb.nxpkg.github.io/replication-nats.html">NATS</a>.<br />
+  NxDB provides an easy to implement <a href="https://nxdb.khulnasoft.com/replication.html">protocol</a> for realtime <b>replication</b> with your existing infrastructure or one of the plugins for <a href="https://nxdb.khulnasoft.com/replication-http.html">HTTP</a>, <a href="https://nxdb.khulnasoft.com/replication-graphql.html">GraphQL</a>, <a href="https://nxdb.khulnasoft.com/replication-couchdb.html">CouchDB</a>, <a href="https://nxdb.khulnasoft.com/replication-websocket.html">Websocket</a>, <a href="https://nxdb.khulnasoft.com/replication-webrtc.html">WebRTC</a>, <a href="https://github.com/marceljuenemann/nxdb-supabase">Supabase</a>, <a href="https://nxdb.khulnasoft.com/replication-firestore.html">Firestore</a>, <a href="https://nxdb.khulnasoft.com/replication-nats.html">NATS</a>.<br />
   NxDB is based on a storage interface that enables you to swap out the underlying storage engine. This increases <b>code reuse</b> because you can use the same database code for different JavaScript environments by just switching out the storage settings.
 </p>
 
-Use the [quickstart](https://nxdb.nxpkg.github.io/quickstart.html), read the [documentation](https://nxdb.nxpkg.github.io/install.html) or explore the [example projects](https://github.com/nxpkg/nxdb/tree/master/examples).
+Use the [quickstart](https://nxdb.khulnasoft.com/quickstart.html), read the [documentation](https://nxdb.khulnasoft.com/install.html) or explore the [example projects](https://github.com/nxpkg/nxdb/tree/master/examples).
 
 <h2>
   <img height="16" width="16" src="./docs-src/static/files/icons/with-gradient/multiplayer.svg">&nbsp;&nbsp;Multiplayer realtime applications
@@ -75,17 +75,17 @@ Use the [quickstart](https://nxdb.nxpkg.github.io/quickstart.html), read the [do
   <img height="16" width="16" src="./docs-src/static/files/icons/with-gradient/replication.svg">&nbsp;&nbsp;Replicate with your <b style="color: #e6008d;">existing infrastructure</b>
 </h2>
 
-NxDB provides an easy to implement, <b>battle-tested</b> <a href="https://nxdb.nxpkg.github.io/replication.html"> replication protocol</a> for realtime sync with your existing infrastructure.<br />
-There are also plugins to easily replicate with <a href="https://nxdb.nxpkg.github.io/replication-graphql.html">GraphQL</a>, <a href="https://nxdb.nxpkg.github.io/replication-couchdb.html">CouchDB</a>, <a href="https://nxdb.nxpkg.github.io/replication-websocket.html">Websocket</a>, <a href="https://nxdb.nxpkg.github.io/replication-webrtc.html">WebRTC</a>,<a href="https://github.com/marceljuenemann/nxdb-supabase">Supabase</a>, <a href="https://nxdb.nxpkg.github.io/replication-firestore.html">Firestore</a> or <a href="https://nxdb.nxpkg.github.io/replication-nats.html">NATS</a>.
+NxDB provides an easy to implement, <b>battle-tested</b> <a href="https://nxdb.khulnasoft.com/replication.html"> replication protocol</a> for realtime sync with your existing infrastructure.<br />
+There are also plugins to easily replicate with <a href="https://nxdb.khulnasoft.com/replication-graphql.html">GraphQL</a>, <a href="https://nxdb.khulnasoft.com/replication-couchdb.html">CouchDB</a>, <a href="https://nxdb.khulnasoft.com/replication-websocket.html">Websocket</a>, <a href="https://nxdb.khulnasoft.com/replication-webrtc.html">WebRTC</a>,<a href="https://github.com/marceljuenemann/nxdb-supabase">Supabase</a>, <a href="https://nxdb.khulnasoft.com/replication-firestore.html">Firestore</a> or <a href="https://nxdb.khulnasoft.com/replication-nats.html">NATS</a>.
 
 
 <h2>
   <img height="16" width="16" src="./docs-src/static/files/icons/with-gradient/storage-layer.svg">&nbsp;&nbsp;<b style="color: #8D2089;">Flexible</b> storage layer
 </h2>
 
-NxDB is based on a [storage interface](https://nxdb.nxpkg.github.io/rx-storage.html) that enables you to swap out the underlying storage engine. This increases **code reuse** because the same database code can be used in different JavaScript environments by just switching out the storage settings.
+NxDB is based on a [storage interface](https://nxdb.khulnasoft.com/rx-storage.html) that enables you to swap out the underlying storage engine. This increases **code reuse** because the same database code can be used in different JavaScript environments by just switching out the storage settings.
 
-You can use NxDB on top of [IndexedDB](https://nxdb.nxpkg.github.io/rx-storage-indexeddb.html), [OPFS](https://nxdb.nxpkg.github.io/rx-storage-opfs.html), [LokiJS](https://nxdb.nxpkg.github.io/rx-storage-lokijs.html), [Dexie.js](https://nxdb.nxpkg.github.io/rx-storage-dexie.html), [in-memory](https://nxdb.nxpkg.github.io/rx-storage-memory.html), [SQLite](https://nxdb.nxpkg.github.io/rx-storage-sqlite.html), in a [WebWorker](https://nxdb.nxpkg.github.io/rx-storage-worker.html) thread and even on top of [FoundationDB](https://nxdb.nxpkg.github.io/rx-storage-foundationdb.html) and [DenoKV](https://nxdb.nxpkg.github.io/rx-storage-denokv.html).
+You can use NxDB on top of [IndexedDB](https://nxdb.khulnasoft.com/rx-storage-indexeddb.html), [OPFS](https://nxdb.khulnasoft.com/rx-storage-opfs.html), [LokiJS](https://nxdb.khulnasoft.com/rx-storage-lokijs.html), [Dexie.js](https://nxdb.khulnasoft.com/rx-storage-dexie.html), [in-memory](https://nxdb.khulnasoft.com/rx-storage-memory.html), [SQLite](https://nxdb.khulnasoft.com/rx-storage-sqlite.html), in a [WebWorker](https://nxdb.khulnasoft.com/rx-storage-worker.html) thread and even on top of [FoundationDB](https://nxdb.khulnasoft.com/rx-storage-foundationdb.html) and [DenoKV](https://nxdb.khulnasoft.com/rx-storage-denokv.html).
 
 No matter what kind of runtime you have, as long as it runs JavaScript, it can run NxDB:
 
@@ -99,15 +99,15 @@ No matter what kind of runtime you have, as long as it runs JavaScript, it can r
   <img height="13" src="docs-src/static/files/icons/nodejs.png" />
   <a href="./examples/node">Node.js</a>
   <img height="13" src="docs-src/static/files/icons/react-native.png" />
-  <a href="https://nxdb.nxpkg.github.io/react-native-database.html">React Native</a>
+  <a href="https://nxdb.khulnasoft.com/react-native-database.html">React Native</a>
   <img height="13" src="docs-src/static/files/icons/capacitor.svg" />
-  <a href="https://nxdb.nxpkg.github.io/capacitor-database.html">Capacitor</a>
+  <a href="https://nxdb.khulnasoft.com/capacitor-database.html">Capacitor</a>
   <img height="13" src="docs-src/static/files/icons/nativescript.svg" />
   <a href="https://github.com/herefishyfish/nxdb-nativescript">NativeScript</a>
   <img height="13" src="docs-src/static/files/icons/flutter.svg" />
   <a href="./examples/flutter">Flutter</a>
   or as an <img height="13" src="docs-src/static/files/icons/electron.png" />
-  <a href="https://nxdb.nxpkg.github.io/electron-database.html">Electron Database</a>
+  <a href="https://nxdb.khulnasoft.com/electron-database.html">Electron Database</a>
 </h4>
 
 
@@ -134,7 +134,7 @@ import {
  * For browsers, we use the dexie.js based storage
  * which stores data in IndexedDB in the browser.
  * In other JavaScript runtimes, we can use different storages:
- * @link https://nxdb.nxpkg.github.io/rx-storage.html
+ * @link https://nxdb.khulnasoft.com/rx-storage.html
  */
 import { getRxStorageDexie } from 'nxdb/plugins/storage-dexie';
 
@@ -184,7 +184,7 @@ await db.heroes.find({
 
 
 
-Continue with the [quickstart here](https://nxdb.nxpkg.github.io/quickstart.html).
+Continue with the [quickstart here](https://nxdb.khulnasoft.com/quickstart.html).
 
 
 
@@ -201,7 +201,7 @@ Continue with the [quickstart here](https://nxdb.nxpkg.github.io/quickstart.html
 
 NxDB implements [rxjs](https://github.com/ReactiveX/rxjs) to make your data reactive.
 This makes it easy to always show the real-time database-state in the dom without manually re-submitting your queries.
-You can also add [custom reactiveness libraries](https://nxdb.nxpkg.github.io/reactivity.html) like signals or other state management.</p>
+You can also add [custom reactiveness libraries](https://nxdb.khulnasoft.com/reactivity.html) like signals or other state management.</p>
 
 </summary>
 
@@ -324,7 +324,7 @@ const mySchema = {
   <p>
 NxDB can be queried by standard NoSQL mango queries like you maybe know from other NoSQL Databases like <b>mongoDB</b>.
 
-Also you can use the [query-builder plugin](https://nxdb.nxpkg.github.io/rx-query.html#query-builder) to create chained mango-queries.
+Also you can use the [query-builder plugin](https://nxdb.khulnasoft.com/rx-query.html#query-builder) to create chained mango-queries.
   </p>
 </summary>
 
@@ -446,7 +446,7 @@ console.log(myDoc.firstName);
 
 </details>
 
-And for any other use case, there are [many more plugins and addons](https://nxdb.nxpkg.github.io/quickstart.html).
+And for any other use case, there are [many more plugins and addons](https://nxdb.khulnasoft.com/quickstart.html).
 
 
 <h2>
@@ -454,16 +454,16 @@ And for any other use case, there are [many more plugins and addons](https://nxd
 </h2>
 
 
-Get started now by [reading the docs](https://nxdb.nxpkg.github.io/quickstart.html) or exploring the [example-projects](./examples).
+Get started now by [reading the docs](https://nxdb.khulnasoft.com/quickstart.html) or exploring the [example-projects](./examples).
 
 <h2>
   <img height="16" width="16" src="./docs-src/static/files/icons/with-gradient/contribute.svg">&nbsp;&nbsp;Support and Contribute
 </h2>
 
-- [Check out how you can contribute to this project](https://nxdb.nxpkg.github.io/contribution.html).
+- [Check out how you can contribute to this project](https://nxdb.khulnasoft.com/contribution.html).
 - [Read this when you have found a bug](./orga/bug-checklist.md)
-- [Buy access to the premium plugins](https://nxdb.nxpkg.github.io/premium)
-- [Join us at discord to get help](https://nxdb.nxpkg.github.io/chat)
+- [Buy access to the premium plugins](https://nxdb.khulnasoft.com/premium)
+- [Join us at discord to get help](https://nxdb.khulnasoft.com/chat)
 - [Give Feedback (anonymous)](https://forms.gle/vGaZB7zrub1hgqDk8)
 
 <!-- 
@@ -472,4 +472,4 @@ Get started now by [reading the docs](https://nxdb.nxpkg.github.io/quickstart.ht
   that we need to rank better.
 -->
 #### More content
-[Angular Database](https://nxdb.nxpkg.github.io/articles/angular-database.html), [Frontend Database](https://nxdb.nxpkg.github.io/articles/frontend-database.html), [localStorage](https://nxdb.nxpkg.github.io/articles/localstorage.html), [React Database](https://nxdb.nxpkg.github.io/articles/react-database.html), [Browser Database](https://nxdb.nxpkg.github.io/articles/browser-database.html), [React Native Database](https://nxdb.nxpkg.github.io/react-native-database.html), [PWA Database](https://nxdb.nxpkg.github.io/articles/progressive-web-app-database.html), [In-memory NoSQL database](https://nxdb.nxpkg.github.io/articles/in-memory-nosql-database.html), [JSON database](https://nxdb.nxpkg.github.io/articles/json-database.html)
+[Angular Database](https://nxdb.khulnasoft.com/articles/angular-database.html), [Frontend Database](https://nxdb.khulnasoft.com/articles/frontend-database.html), [localStorage](https://nxdb.khulnasoft.com/articles/localstorage.html), [React Database](https://nxdb.khulnasoft.com/articles/react-database.html), [Browser Database](https://nxdb.khulnasoft.com/articles/browser-database.html), [React Native Database](https://nxdb.khulnasoft.com/react-native-database.html), [PWA Database](https://nxdb.khulnasoft.com/articles/progressive-web-app-database.html), [In-memory NoSQL database](https://nxdb.khulnasoft.com/articles/in-memory-nosql-database.html), [JSON database](https://nxdb.khulnasoft.com/articles/json-database.html)

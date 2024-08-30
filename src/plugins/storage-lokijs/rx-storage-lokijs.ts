@@ -47,7 +47,7 @@ export class RxStorageLoki implements RxStorage<LokiStorageInternals, LokiSettin
 
 /**
  * @deprecated The lokijs RxStorage is deprecated, more info at:
- * @link https://nxdb.nxpkg.github.io/rx-storage-lokijs.html
+ * @link https://nxdb.khulnasoft.com/rx-storage-lokijs.html
  */
 export function getRxStorageLoki(
     databaseSettings: LokiDatabaseSettings = {}

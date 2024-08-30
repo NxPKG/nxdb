@@ -74,8 +74,8 @@ async function run() {
     let releaseBodyRows = [
         // add this line for a backlink and to have a big image appear in peoples github newsfeed.
         `<p align="center">
-            <a href="https://nxdb.nxpkg.github.io/">
-                <img src="https://nxdb.nxpkg.github.io/files/logo/nxdb_javascript_database.svg" width="380px" alt="JavaScript Database" />
+            <a href="https://nxdb.khulnasoft.com/">
+                <img src="https://nxdb.khulnasoft.com/files/logo/nxdb_javascript_database.svg" width="380px" alt="JavaScript Database" />
             </a>
         </p>`,
         '',
@@ -88,9 +88,9 @@ async function run() {
     ]);
     releaseBodyRows.push([
         '### Join NxDB:',
-        '- 💬 [Join the NxDB Chat](https://nxdb.nxpkg.github.io/chat)',
+        '- 💬 [Join the NxDB Chat](https://nxdb.khulnasoft.com/chat)',
         '- ⭐ [Star the NxDB Repo](https://github.com/nxpkg/nxdb)',
-        '- 📰 [Subscribe to the newsletter](https://nxdb.nxpkg.github.io/newsletter)',
+        '- 📰 [Subscribe to the newsletter](https://nxdb.khulnasoft.com/newsletter)',
         '- 🐦 [Follow at Twitter](https://twitter.com/intent/user?screen_name=nxdbjs)',
         '- 🔗 [Follow at LinkedIn](https://www.linkedin.com/company/nxdb)'
     ]);

@@ -1,6 +1,6 @@
 {
   "name": "@nxdb/nxdb",
-  "description": "A local-first realtime NoSQL Database for JavaScript applications - https://nxdb.nxpkg.github.io/",
+  "description": "A local-first realtime NoSQL Database for JavaScript applications - https://nxdb.khulnasoft.com/",
   "version": "15.32.0",
   "author": "nxpkg",
   "private": "true",
@@ -8,7 +8,7 @@
     "type": "git",
     "url": "https://github.com/nxpkg/nxdb"
   },
-  "homepage": "https://nxdb.nxpkg.github.io/",
+  "homepage": "https://nxdb.khulnasoft.com/",
   "keywords": [
     "db",
     "database",
