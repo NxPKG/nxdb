@@ -18,20 +18,18 @@ import {
 } from '../../plugins/validate-ajv/index.mjs';
 
 
-import {
-    createRxDatabase as createRxDatabaseOld,
-    addRxPlugin as addRxPluginOld
-} from 'nxdb-old';
-import {
-    NxDBAttachmentsPlugin as NxDBAttachmentsPluginOld
-} from 'nxdb-old/plugins/attachments';
-addRxPlugin(NxDBAttachmentsPlugin);
-addRxPluginOld(NxDBAttachmentsPluginOld);
-import {
-    indexedDB as fakeIndexedDB,
-    IDBKeyRange as fakeIDBKeyRange
-} from 'fake-indexeddb';
+// Import the entire module as the default export
+import pkg from 'nxdb-old';
+import { NxDBAttachmentsPlugin as NxDBAttachmentsPluginOld } from 'nxdb-old/plugins/attachments';
 
+// Destructure the needed functions from the CommonJS module
+const { createRxDatabase: createRxDatabaseOld, addRxPlugin: addRxPluginOld } = pkg;
+
+// Use the imported functions
+addRxPluginOld(NxDBAttachmentsPluginOld);
+
+// Import fake IndexedDB polyfill
+import { indexedDB as fakeIndexedDB, IDBKeyRange as fakeIDBKeyRange } from 'fake-indexeddb';
 
 import {
     getRxStorageLoki as getRxStorageLokiOld
