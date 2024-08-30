@@ -8,7 +8,7 @@ description: SQLite, Filesystem, IndexedDB and In-Memory database with NxDB for 
 
 [Electron](https://www.electronjs.org/) (aka Electron.js) is a framework developed by github that is designed to create desktop applications with the Web technology stack consisting of HTML, CSS and JavaScript.
 Because the desktop application runs on the client's device, it is suitable to use a database that can store and query data locally. This allows you to create so-called [local first](./offline-first.md) apps that store data locally and even work when the user has no internet connection.
-While there are many options to store data in Electron, for complex realtime apps using [NxDB](https://nxpkg.github.io/nxdb/) is recommended because it is a database made for UI-based client-side application, not a server-side database.
+While there are many options to store data in Electron, for complex realtime apps using [NxDB](https://nxdb.nxpkg.github.io/) is recommended because it is a database made for UI-based client-side application, not a server-side database.
 
 <p align="center">
   <img src="./files/icons/electron.svg" alt="Electron" width="70" />
@@ -43,9 +43,9 @@ Another thing is performance. [IndexedDB is slow](./slow-indexeddb.md), mostly b
 </p>
 
 
-[NxDB](https://nxpkg.github.io/nxdb/) is a NoSQL database for JavaScript applications. It has many features that come in handy when NxDB is used with UI based applications like your Electron app. For example, it is able to subscribe to query results of single fields of documents. It has encryption and compression features and most important it has a battle tested [replication protocol](https://nxpkg.github.io/nxdb/replication.html) that can be used to do a realtime sync with your backend.
+[NxDB](https://nxdb.nxpkg.github.io/) is a NoSQL database for JavaScript applications. It has many features that come in handy when NxDB is used with UI based applications like your Electron app. For example, it is able to subscribe to query results of single fields of documents. It has encryption and compression features and most important it has a battle tested [replication protocol](https://nxdb.nxpkg.github.io/replication.html) that can be used to do a realtime sync with your backend.
 
-Because of the [flexible storage](https://nxpkg.github.io/nxdb/rx-storage.html) layer of NxDB, there are many options on how to use it with Electron:
+Because of the [flexible storage](https://nxdb.nxpkg.github.io/rx-storage.html) layer of NxDB, there are many options on how to use it with Electron:
 
 - The [memory RxStorage](./rx-storage-memory.md) that stores the data inside of the JavaScript memory without persistence
 - The [SQLite RxStorage](./rx-storage-sqlite.md)

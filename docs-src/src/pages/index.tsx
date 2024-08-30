@@ -838,7 +838,7 @@ export default function Home(props) {
                 </div>
               </a>
               <a
-                href="https://nxpkg.github.io/nxdb/capacitor-database.html#nxdb"
+                href="https://nxdb.nxpkg.github.io/capacitor-database.html#nxdb"
                 target="_blank"
               >
                 <div
@@ -850,7 +850,7 @@ export default function Home(props) {
                 </div>
               </a>
               <a
-                href="https://nxpkg.github.io/nxdb/rx-storage-denokv.html"
+                href="https://nxdb.nxpkg.github.io/rx-storage-denokv.html"
                 target="_blank"
               >
                 <div
@@ -1236,7 +1236,7 @@ export default function Home(props) {
                         <ul>
                           <li>
                             <a
-                              href="https://nxpkg.github.io/nxdb/rx-storage-sqlite.html"
+                              href="https://nxdb.nxpkg.github.io/rx-storage-sqlite.html"
                               target="_blank"
                             >
                               SQLite RxStorage
@@ -1244,7 +1244,7 @@ export default function Home(props) {
                           </li>
                           <li>
                             <a
-                              href="https://nxpkg.github.io/nxdb/rx-storage-opfs.html"
+                              href="https://nxdb.nxpkg.github.io/rx-storage-opfs.html"
                               target="_blank"
                             >
                               OPFS RxStorage
@@ -1252,7 +1252,7 @@ export default function Home(props) {
                           </li>
                           <li>
                             <a
-                              href="https://nxpkg.github.io/nxdb/rx-storage-indexeddb.html"
+                              href="https://nxdb.nxpkg.github.io/rx-storage-indexeddb.html"
                               target="_blank"
                             >
                               IndexedDB RxStorage
@@ -1260,7 +1260,7 @@ export default function Home(props) {
                           </li>
                           <li>
                             <a
-                              href="https://nxpkg.github.io/nxdb/rx-storage-memory-synced.html"
+                              href="https://nxdb.nxpkg.github.io/rx-storage-memory-synced.html"
                               target="_blank"
                             >
                               Memory-Synced RxStorage
@@ -1268,7 +1268,7 @@ export default function Home(props) {
                           </li>
                           <li>
                             <a
-                              href="https://nxpkg.github.io/nxdb/rx-storage-sharding.html"
+                              href="https://nxdb.nxpkg.github.io/rx-storage-sharding.html"
                               target="_blank"
                             >
                               Sharding Plugin
@@ -1276,7 +1276,7 @@ export default function Home(props) {
                           </li>
                           <li>
                             <a
-                              href="https://nxpkg.github.io/nxdb/query-optimizer.html"
+                              href="https://nxdb.nxpkg.github.io/query-optimizer.html"
                               target="_blank"
                             >
                               Query Optimizer
@@ -1284,7 +1284,7 @@ export default function Home(props) {
                           </li>
                           <li>
                             <a
-                              href="https://nxpkg.github.io/nxdb/migration-storage.html"
+                              href="https://nxdb.nxpkg.github.io/migration-storage.html"
                               target="_blank"
                             >
                               Storage Migrator
@@ -1292,7 +1292,7 @@ export default function Home(props) {
                           </li>
                           <li>
                             <a
-                              href="https://nxpkg.github.io/nxdb/rx-storage-localstorage-meta-optimizer.html"
+                              href="https://nxdb.nxpkg.github.io/rx-storage-localstorage-meta-optimizer.html"
                               target="_blank"
                             >
                               RxStorage Localstorage Meta Optimizer
@@ -1300,7 +1300,7 @@ export default function Home(props) {
                           </li>
                           <li>
                             <a
-                              href="https://nxpkg.github.io/nxdb/rx-storage-shared-worker.html"
+                              href="https://nxdb.nxpkg.github.io/rx-storage-shared-worker.html"
                               target="_blank"
                             >
                               Shared Worker
@@ -1308,7 +1308,7 @@ export default function Home(props) {
                           </li>
                           <li>
                             <a
-                              href="https://nxpkg.github.io/nxdb/rx-storage-worker.html"
+                              href="https://nxdb.nxpkg.github.io/rx-storage-worker.html"
                               target="_blank"
                             >
                               Worker

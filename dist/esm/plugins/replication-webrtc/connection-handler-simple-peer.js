@@ -8,7 +8,7 @@ import { newRxError } from "../../rx-error.js";
 function sendMessage(ws, msg) {
   ws.send(JSON.stringify(msg));
 }
-var DEFAULT_SIGNALING_SERVER_HOSTNAME = 'signaling.nxpkg.github.io/nxdb';
+var DEFAULT_SIGNALING_SERVER_HOSTNAME = 'signaling.nxdb.nxpkg.github.io';
 export var DEFAULT_SIGNALING_SERVER = 'wss://' + DEFAULT_SIGNALING_SERVER_HOSTNAME + '/';
 var defaultServerWarningShown = false;
 export var SIMPLE_PEER_PING_INTERVAL = 1000 * 60 * 2;
@@ -27,7 +27,7 @@ export function getConnectionHandlerSimplePeer({
   webSocketConstructor = webSocketConstructor ? webSocketConstructor : WebSocket;
   if (signalingServerUrl.includes(DEFAULT_SIGNALING_SERVER_HOSTNAME) && !defaultServerWarningShown) {
     defaultServerWarningShown = true;
-    console.warn(['NxDB Warning: You are using the NxDB WebRTC replication plugin', 'but you did not specify your own signaling server url.', 'By default it will use a signaling server provided by NxDB at ' + DEFAULT_SIGNALING_SERVER, 'This server is made for demonstration purposes and tryouts. It is not reliable and might be offline at any time.', 'In production you must always use your own signaling server instead.', 'Learn how to run your own server at https://nxpkg.github.io/nxdb/replication-webrtc.html', 'Also leave a ⭐ at the NxDB github repo 🙏 https://github.com/nxpkg/nxdb 🙏'].join(' '));
+    console.warn(['NxDB Warning: You are using the NxDB WebRTC replication plugin', 'but you did not specify your own signaling server url.', 'By default it will use a signaling server provided by NxDB at ' + DEFAULT_SIGNALING_SERVER, 'This server is made for demonstration purposes and tryouts. It is not reliable and might be offline at any time.', 'In production you must always use your own signaling server instead.', 'Learn how to run your own server at https://nxdb.nxpkg.github.io/replication-webrtc.html', 'Also leave a ⭐ at the NxDB github repo 🙏 https://github.com/nxpkg/nxdb 🙏'].join(' '));
   }
   var creator = async options => {
     var connect$ = new Subject();

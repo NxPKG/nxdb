@@ -1,13 +1,13 @@
 # NxDB Flutter example
 
-This is an example of how to use [NxDB](https://nxpkg.github.io/nxdb/) as a database inside of a [Flutter](https://flutter.dev/) application. It is able to insert documents and run and observe queries to create a reactive application that always renders the current database state.
+This is an example of how to use [NxDB](https://nxdb.nxpkg.github.io/) as a database inside of a [Flutter](https://flutter.dev/) application. It is able to insert documents and run and observe queries to create a reactive application that always renders the current database state.
 
 **IMPORTANT:** This is highly experimental, it works but many parts are missing. If you need any missing functionality, you are expected to make a pull request.
 
 
 ## How it works technically
 
-NxDB is written in TypeScript and compiled to JavaScript. To run it in a Flutter application, the [flutter_qjs](https://pub.dev/packages/flutter_qjs) library is used to spawn a QuickJS JavaScript runtime. NxDB itself runs in that runtime and communicates with the flutter dart runtime. To store data persistent, the [LokiJS RxStorage](https://nxpkg.github.io/nxdb/rx-storage-lokijs.html) is used together with a custom storage adapter that persists the database inside of the [shared_preferences](https://pub.dev/packages/shared_preferences) data.
+NxDB is written in TypeScript and compiled to JavaScript. To run it in a Flutter application, the [flutter_qjs](https://pub.dev/packages/flutter_qjs) library is used to spawn a QuickJS JavaScript runtime. NxDB itself runs in that runtime and communicates with the flutter dart runtime. To store data persistent, the [LokiJS RxStorage](https://nxdb.nxpkg.github.io/rx-storage-lokijs.html) is used together with a custom storage adapter that persists the database inside of the [shared_preferences](https://pub.dev/packages/shared_preferences) data.
 
 
 ## In JavaScript
@@ -132,4 +132,4 @@ myQuery.$().listen((newResults) {
 
 
 
-- Read more about using NxDB as [Flutter Database](https://nxpkg.github.io/nxdb/articles/flutter-database.html)
+- Read more about using NxDB as [Flutter Database](https://nxdb.nxpkg.github.io/articles/flutter-database.html)

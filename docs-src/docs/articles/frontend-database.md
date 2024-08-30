@@ -6,10 +6,10 @@ description: Explore NxDB as simple frontend database - Learn the benefits of of
 
 
 # NxDB JavaScript Frontend Database: Efficient Data Storage in Frontend Applications
-In modern web development, managing data on the front end has become increasingly important. Storing data in the frontend offers numerous advantages, such as offline accessibility, caching, faster application startup, and improved state management. Traditional SQL databases, although widely used on the server-side, are not always the best fit for frontend applications. This is where [NxDB](https://nxpkg.github.io/nxdb/), a frontend JavaScript database, emerges as a powerful solution. In this article, we will explore why storing data in the frontend is beneficial, the limitations of SQL databases in the frontend, and how [NxDB](https://nxpkg.github.io/nxdb/) addresses these challenges to become an excellent choice for frontend data storage.
+In modern web development, managing data on the front end has become increasingly important. Storing data in the frontend offers numerous advantages, such as offline accessibility, caching, faster application startup, and improved state management. Traditional SQL databases, although widely used on the server-side, are not always the best fit for frontend applications. This is where [NxDB](https://nxdb.nxpkg.github.io/), a frontend JavaScript database, emerges as a powerful solution. In this article, we will explore why storing data in the frontend is beneficial, the limitations of SQL databases in the frontend, and how [NxDB](https://nxdb.nxpkg.github.io/) addresses these challenges to become an excellent choice for frontend data storage.
 
 <center>
-    <a href="https://nxpkg.github.io/nxdb/">
+    <a href="https://nxdb.nxpkg.github.io/">
         <img src="../files/logo/nxdb_javascript_database.svg" alt="JavaScript Frontend Database" width="220" />
     </a>
 </center>
@@ -56,7 +56,7 @@ Frontend databases offer improved scalability compared to traditional SQL databa
 While SQL databases excel in server-side scenarios, they pose limitations when used on the frontend. Here are some reasons why SQL databases are not well-suited for frontend applications:
 
 ### Push/Pull based vs. reactive
-SQL databases typically rely on a push/pull model, where the server pushes data to the client upon request. This approach is not inherently reactive, as it requires explicit requests for data updates. In contrast, frontend applications often require reactive data flows, where changes in data trigger automatic updates in the UI. Frontend databases, like [NxDB](https://nxpkg.github.io/nxdb/), provide reactive capabilities that seamlessly integrate with the dynamic nature of frontend development.
+SQL databases typically rely on a push/pull model, where the server pushes data to the client upon request. This approach is not inherently reactive, as it requires explicit requests for data updates. In contrast, frontend applications often require reactive data flows, where changes in data trigger automatic updates in the UI. Frontend databases, like [NxDB](https://nxdb.nxpkg.github.io/), provide reactive capabilities that seamlessly integrate with the dynamic nature of frontend development.
 
 ### Initialization time and performance
 SQL databases designed for server-side usage tend to have larger build sizes and initialization times, making them less efficient for [browser-based](./browser-database.md) applications. Frontend databases, on the other hand, directly leverage browser APIs like IndexedDB, OPFS, and WebWorker, resulting in leaner builds and faster initialization times. Often the queries are such fast, that it is not even necessary to implement a loading spinner.
@@ -149,4 +149,4 @@ To further explore NxDB and get started with using it in your frontend applicati
 - [NxDB Quickstart](../quickstart.md): A step-by-step guide to quickly set up NxDB in your project and start leveraging its features.
 - [NxDB GitHub Repository](https://github.com/nxpkg/nxdb): The official repository for NxDB, where you can find the code, examples, and community support.
 
-By adopting [NxDB](https://nxpkg.github.io/nxdb/) as your frontend database, you can unlock the full potential of frontend data storage and empower your applications with offline accessibility, caching, improved performance, and seamless data synchronization. NxDB's JavaScript-centric approach and powerful features make it an ideal choice for frontend developers seeking efficient and scalable data storage solutions.
+By adopting [NxDB](https://nxdb.nxpkg.github.io/) as your frontend database, you can unlock the full potential of frontend data storage and empower your applications with offline accessibility, caching, improved performance, and seamless data synchronization. NxDB's JavaScript-centric approach and powerful features make it an ideal choice for frontend developers seeking efficient and scalable data storage solutions.

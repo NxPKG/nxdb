@@ -72,7 +72,7 @@ export declare class RxCollectionBase<InstanceCreationOptions, RxDocumentType = 
     prepare(): Promise<void>;
     /**
      * Manually call the cleanup function of the storage.
-     * @link https://nxpkg.github.io/nxdb/cleanup.html
+     * @link https://nxdb.nxpkg.github.io/cleanup.html
      */
     cleanup(_minimumDeletedTime?: number): Promise<boolean>;
     migrationNeeded(): Promise<boolean>;

@@ -95,7 +95,7 @@ export var RxTypeError = /*#__PURE__*/function (_TypeError) {
   }]);
 }(/*#__PURE__*/_wrapNativeSuper(TypeError));
 export function getErrorUrl(code) {
-  return 'https://nxpkg.github.io/nxdb/errors.html?console=errors#' + code;
+  return 'https://nxdb.nxpkg.github.io/errors.html?console=errors#' + code;
 }
 export function errorUrlHint(code) {
   return '\n You can find out more about this error here: ' + getErrorUrl(code) + ' ';

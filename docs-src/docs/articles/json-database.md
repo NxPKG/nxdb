@@ -6,10 +6,10 @@ slug: json-database.html
 # NxDB - JSON Database for JavaScript
 
 
-Storing data as **JSON documents** in a **NoSQL** database is not just a trend; it's a practical choice. JSON data is highly compatible with various tools and is human-readable, making it an excellent fit for modern applications. JSON documents offer more flexibility compared to traditional SQL table rows, as they can contain nested data structures. This article introduces [NxDB](https://nxpkg.github.io/nxdb/), an open-source, flexible, performant, and battle-tested NoSQL JSON database specifically designed for **JavaScript** applications.
+Storing data as **JSON documents** in a **NoSQL** database is not just a trend; it's a practical choice. JSON data is highly compatible with various tools and is human-readable, making it an excellent fit for modern applications. JSON documents offer more flexibility compared to traditional SQL table rows, as they can contain nested data structures. This article introduces [NxDB](https://nxdb.nxpkg.github.io/), an open-source, flexible, performant, and battle-tested NoSQL JSON database specifically designed for **JavaScript** applications.
 
 <center>
-    <a href="https://nxpkg.github.io/nxdb/">
+    <a href="https://nxdb.nxpkg.github.io/">
         <img src="../files/logo/nxdb_javascript_database.svg" alt="JSON Database" width="220" />
     </a>
 </center>
@@ -120,4 +120,4 @@ To further explore NxDB and get started with using it in your frontend applicati
 - [NxDB GitHub Repository](https://github.com/nxpkg/nxdb): The official repository for NxDB, where you can find the code, examples, and community support.
 
 
-By embracing [NxDB](https://nxpkg.github.io/nxdb/) as your **JSON database** solution, you can tap into the extensive capabilities of JSON data storage. This empowers your applications with offline accessibility, caching, enhanced performance, and effortless data synchronization. NxDB's focus on JavaScript and its robust feature set render it the perfect selection for frontend developers in pursuit of efficient and scalable data storage solutions.
+By embracing [NxDB](https://nxdb.nxpkg.github.io/) as your **JSON database** solution, you can tap into the extensive capabilities of JSON data storage. This empowers your applications with offline accessibility, caching, enhanced performance, and effortless data synchronization. NxDB's focus on JavaScript and its robust feature set render it the perfect selection for frontend developers in pursuit of efficient and scalable data storage solutions.

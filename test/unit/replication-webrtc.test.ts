@@ -47,7 +47,7 @@ describe('replication-webrtc.test.ts', function () {
     let webSocketConstructor: WebSocket;
 
     const signalingServerUrl: string = 'ws://localhost:18006';
-    // const signalingServerUrl: string = 'wss://signaling.nxpkg.github.io/nxdb/';
+    // const signalingServerUrl: string = 'wss://signaling.nxdb.nxpkg.github.io/';
 
     describe('init', () => {
         it('import WebRTC polyfills on Node.js', async () => {

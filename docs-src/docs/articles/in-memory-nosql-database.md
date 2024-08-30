@@ -5,11 +5,11 @@ slug: in-memory-nosql-database.html
 
 # NxDB as In-memory NoSQL Database: Empowering Real-Time Applications
 
-Real-time applications have become increasingly popular in today's digital landscape. From instant messaging to collaborative editing tools, the demand for responsive and interactive software is on the rise. To meet these requirements, developers need powerful and efficient database solutions that can handle large amounts of data in real-time. [NxDB](https://nxpkg.github.io/nxdb/), an javascript NoSQL database, is revolutionizing the way developers build and scale their applications by offering exceptional speed, flexibility, and scalability.
+Real-time applications have become increasingly popular in today's digital landscape. From instant messaging to collaborative editing tools, the demand for responsive and interactive software is on the rise. To meet these requirements, developers need powerful and efficient database solutions that can handle large amounts of data in real-time. [NxDB](https://nxdb.nxpkg.github.io/), an javascript NoSQL database, is revolutionizing the way developers build and scale their applications by offering exceptional speed, flexibility, and scalability.
 
 
 <center>
-    <a href="https://nxpkg.github.io/nxdb/">
+    <a href="https://nxdb.nxpkg.github.io/">
         <img src="../files/logo/nxdb_javascript_database.svg" alt="NxDB Flutter Database" width="220" />
     </a>
 </center>

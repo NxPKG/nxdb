@@ -8,7 +8,7 @@ description: Explore the advanced features of NxDB with FoundationDB RxStorage -
 
 [FoundationDB](https://www.foundationdb.org/) is a distributed key-value store designed to handle large volumes of structured data across clusters of computers while maintaining high levels of performance, scalability, and fault tolerance. While FoundationDB itself only can store and query key-value pairs, it lacks more advanced features like complex queries, encryption and replication.
 
-With the FoundationDB based [RxStorage](./rx-storage.md) of [NxDB](https://nxpkg.github.io/nxdb/) you can combine the benefits of FoundationDB while having a fully featured, high performance NoSQL database.
+With the FoundationDB based [RxStorage](./rx-storage.md) of [NxDB](https://nxdb.nxpkg.github.io/) you can combine the benefits of FoundationDB while having a fully featured, high performance NoSQL database.
 
 ## Features of NxDB+FoundationDB
 

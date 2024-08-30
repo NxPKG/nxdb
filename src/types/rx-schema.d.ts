@@ -159,7 +159,7 @@ export type RxJsonSchema<
      * Options for the sharding plugin of nxdb-premium.
      * We set these on the schema because changing the shard amount or mode
      * will require a migration.
-     * @link https://nxpkg.github.io/nxdb/rx-storage-sharding.html
+     * @link https://nxdb.nxpkg.github.io/rx-storage-sharding.html
      */
     sharding?: {
         /**

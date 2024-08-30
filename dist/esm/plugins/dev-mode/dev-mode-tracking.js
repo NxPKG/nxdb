@@ -22,7 +22,7 @@ export async function addDevModeTrackingIframe(db) {
   iframeShown = true;
   var iframe = document.createElement('iframe');
   iframe.style.display = 'none';
-  iframe.src = 'https://nxpkg.github.io/nxdb/html/dev-mode-iframe.html?version=' + NXDB_VERSION;
+  iframe.src = 'https://nxdb.nxpkg.github.io/html/dev-mode-iframe.html?version=' + NXDB_VERSION;
   document.body.appendChild(iframe);
 }
 function isLocalHost() {

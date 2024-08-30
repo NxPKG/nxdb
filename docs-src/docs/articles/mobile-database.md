@@ -5,7 +5,7 @@ slug: mobile-database.html
 
 # Mobile Database - NxDB as Database for Mobile Applications
 
-In today's digital landscape, mobile applications have become an integral part of our lives. From social media platforms to e-commerce solutions, mobile apps have transformed the way we interact with digital services. At the heart of any mobile app lies the database, a critical component responsible for storing, retrieving, and managing data efficiently. In this article, we will delve into the world of mobile databases, exploring their significance, challenges, and the emergence of [NxDB](https://nxpkg.github.io/nxdb/) as a powerful database solution for hybrid app development in frameworks like React Native and Capacitor.
+In today's digital landscape, mobile applications have become an integral part of our lives. From social media platforms to e-commerce solutions, mobile apps have transformed the way we interact with digital services. At the heart of any mobile app lies the database, a critical component responsible for storing, retrieving, and managing data efficiently. In this article, we will delve into the world of mobile databases, exploring their significance, challenges, and the emergence of [NxDB](https://nxdb.nxpkg.github.io/) as a powerful database solution for hybrid app development in frameworks like React Native and Capacitor.
 
 
 ## Understanding Mobile Databases
@@ -17,13 +17,13 @@ There are various types of mobile databases available, each with its own strengt
 ## Introducing NxDB: A Paradigm Shift in Mobile Database Solutions
 
 <center>
-    <a href="https://nxpkg.github.io/nxdb/">
+    <a href="https://nxdb.nxpkg.github.io/">
         <img src="../files/logo/nxdb_javascript_database.svg" alt="Mobile Database" width="220" />
     </a>
 </center>
 
 
-[NxDB](https://nxpkg.github.io/nxdb/), also known as Reactive Database, has emerged as a game-changer in the realm of mobile databases. Built on top of popular web technologies like JavaScript, TypeScript, and RxJS (Reactive Extensions for JavaScript), NxDB provides an elegant solution for seamless offline-first capabilities and real-time data synchronization in mobile applications.
+[NxDB](https://nxdb.nxpkg.github.io/), also known as Reactive Database, has emerged as a game-changer in the realm of mobile databases. Built on top of popular web technologies like JavaScript, TypeScript, and RxJS (Reactive Extensions for JavaScript), NxDB provides an elegant solution for seamless offline-first capabilities and real-time data synchronization in mobile applications.
 
 Benefits of NxDB for Hybrid App Development
 
@@ -39,7 +39,7 @@ Benefits of NxDB for Hybrid App Development
 
 ## Use Cases for NxDB in Hybrid App Development
 
-1. [Offline-First Applications](../offline-first.md): [NxDB](https://nxpkg.github.io/nxdb/) is an ideal choice for applications that heavily rely on offline functionality. Whether it's a note-taking app, a task manager, or a survey application, NxDB ensures that users can continue working even when connectivity is compromised. The seamless synchronization capabilities of NxDB ensure that changes made offline are automatically propagated once the device reconnects to the internet.
+1. [Offline-First Applications](../offline-first.md): [NxDB](https://nxdb.nxpkg.github.io/) is an ideal choice for applications that heavily rely on offline functionality. Whether it's a note-taking app, a task manager, or a survey application, NxDB ensures that users can continue working even when connectivity is compromised. The seamless synchronization capabilities of NxDB ensure that changes made offline are automatically propagated once the device reconnects to the internet.
 
 2. Real-Time Collaboration: Applications that require real-time collaboration, such as messaging platforms or collaborative editing tools, can greatly benefit from NxDB. The real-time synchronization capabilities enable multiple users to work on the same data simultaneously, ensuring that everyone sees the latest updates in real-time.
 

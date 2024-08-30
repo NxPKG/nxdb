@@ -25,7 +25,7 @@ export var RxStorageLoki = /*#__PURE__*/function () {
 
 /**
  * @deprecated The lokijs RxStorage is deprecated, more info at:
- * @link https://nxpkg.github.io/nxdb/rx-storage-lokijs.html
+ * @link https://nxdb.nxpkg.github.io/rx-storage-lokijs.html
  */
 export function getRxStorageLoki(databaseSettings = {}) {
   var storage = new RxStorageLoki(databaseSettings);

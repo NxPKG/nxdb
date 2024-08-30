@@ -25,7 +25,7 @@ import type {
  * This is an interface that abstracts the storage engine.
  * This allows us to use NxDB with different storage engines.
  *
- * @link https://nxpkg.github.io/nxdb/rx-storage.html
+ * @link https://nxdb.nxpkg.github.io/rx-storage.html
  * @link https://github.com/nxpkg/nxdb/issues/1636
  */
 

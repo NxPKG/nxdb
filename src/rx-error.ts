@@ -111,7 +111,7 @@ export class RxTypeError extends TypeError {
 
 
 export function getErrorUrl(code: RxErrorKey) {
-    return 'https://nxpkg.github.io/nxdb/errors.html?console=errors#' + code;
+    return 'https://nxdb.nxpkg.github.io/errors.html?console=errors#' + code;
 }
 
 export function errorUrlHint(code: RxErrorKey) {

@@ -15,7 +15,7 @@ PWAs bring a plethora of advantages to the table. They eliminate the hassle of a
 At the heart of PWAs lies efficient data management, and NxDB steps in as a reliable ally. As a client-side NoSQL database, NxDB seamlessly integrates into web applications, offering real-time data synchronization and manipulation capabilities. This article sheds light on the transformative potential of NxDB as it collaborates harmoniously with PWAs, enabling local-first strategies and elevating user interactions to a whole new level.
 
 <center>
-    <a href="https://nxpkg.github.io/nxdb/">
+    <a href="https://nxdb.nxpkg.github.io/">
         <img src="../files/logo/nxdb_javascript_database.svg" alt="Progressive Web App Database" width="228" />
     </a>
 </center>

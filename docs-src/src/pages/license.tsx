@@ -2,7 +2,7 @@
  * We use pipedrive as a sales tool.
  * However sharing pipedrive url directly in emails
  * has shown to increase the likelihood of landing in spam filters.
- * Therefore just use a nxpkg.github.io/nxdb link that redirects to pipedrive.
+ * Therefore just use a nxdb.nxpkg.github.io link that redirects to pipedrive.
  * This also allows to track the conversion event.
  */
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';

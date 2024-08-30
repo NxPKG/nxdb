@@ -16,7 +16,7 @@ This would cause strange bugs and would be hard to debug, so NxDB check's if you
 To change the schema in **production**-mode, do the following steps:
 
 - Increase the `version` by 1
-- Add the appropriate [migrationStrategies](https://nxpkg.github.io/nxdb/nxdb/migration-schema.html) so the saved data will be modified to match the new schema
+- Add the appropriate [migrationStrategies](https://nxdb.nxdb.nxpkg.github.io/migration-schema.html) so the saved data will be modified to match the new schema
 
 
 In **development**-mode, the schema-change can be simplified by **one of these** strategies:

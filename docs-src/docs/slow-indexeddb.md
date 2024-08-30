@@ -18,10 +18,10 @@ For [in-browser data storage](./articles/browser-database.md), you have some opt
 
 
 :::note UPDATE April 2023
-Since beginning of 2023, all modern browsers ship the **File System Access API** which allows to persistently store data in the browser with a way better performance. For [NxDB](https://nxpkg.github.io/nxdb/) you can use the [OPFS RxStorage](./rx-storage-opfs.md) to get about 4x performance improvement compared to IndexedDB.
+Since beginning of 2023, all modern browsers ship the **File System Access API** which allows to persistently store data in the browser with a way better performance. For [NxDB](https://nxdb.nxpkg.github.io/) you can use the [OPFS RxStorage](./rx-storage-opfs.md) to get about 4x performance improvement compared to IndexedDB.
 
 <center>
-    <a href="https://nxpkg.github.io/nxdb/">
+    <a href="https://nxdb.nxpkg.github.io/">
         <img src="./files/logo/nxdb_javascript_database.svg" alt="IndexedDB Database" width="250" />
     </a>
 </center>
@@ -34,19 +34,19 @@ But as soon as your app gets bigger, more complex or just handles more data, you
 
 So before we start complaining, lets analyze what exactly is slow. When you run tests on Nolans [Browser Database Comparison](http://nolanlawson.github.io/database-comparison/) you can see that inserting 1k documents into IndexedDB takes about 80 milliseconds, 0.08ms per document. This is not really slow. It is quite fast and it is very unlikely that you want to store that many document at the same time at the client side. But the key point here is that all these documents get written in a `single transaction`.
 
-I forked the comparison tool [here](https://nxpkg.github.io/nxdb/client-side-databases/database-comparison/index.html) and changed it to use one transaction per document write. And there we have it. Inserting 1k documents with one transaction per write, takes about 2 seconds. Interestingly if we increase the document size to be 100x bigger, it still takes about the same time to store them. This makes clear that the limiting factor to IndexedDB performance is the transaction handling, not the data throughput.
+I forked the comparison tool [here](https://nxdb.nxpkg.github.io/client-side-databases/database-comparison/index.html) and changed it to use one transaction per document write. And there we have it. Inserting 1k documents with one transaction per write, takes about 2 seconds. Interestingly if we increase the document size to be 100x bigger, it still takes about the same time to store them. This makes clear that the limiting factor to IndexedDB performance is the transaction handling, not the data throughput.
 
 <p align="center">
   <img src="./files/indexeddb-transaction-throughput.png" alt="IndexedDB transaction throughput" width="700" />
 </p>
 
 To fix your IndexedDB performance problems you have to make sure to use as less data transfers/transactions as possible.
-Sometimes this is easy, as instead of iterating over a documents list and calling single inserts, with NxDB you could use the [bulk methods](https://nxpkg.github.io/nxdb/rx-collection.html#bulkinsert) to store many document at once.
+Sometimes this is easy, as instead of iterating over a documents list and calling single inserts, with NxDB you could use the [bulk methods](https://nxdb.nxpkg.github.io/rx-collection.html#bulkinsert) to store many document at once.
 But most of the time is not so easy. Your user clicks around, data gets replicated from the backend, another browser tab writes data. All these things can happen at random time and you cannot crunch all that data in a single transaction.
 
 Another solution is to just not care about performance at all. In a few releases the browser vendors will have optimized IndexedDB and everything is fast again. Well, IndexedDB was slow [in 2013](https://www.researchgate.net/publication/281065948_Performance_Testing_and_Comparison_of_Client_Side_Databases_Versus_Server_Side) and it is still slow today. If this trend continues, it will still be slow in a few years from now. Waiting is not an option. The chromium devs made [a statement](https://bugs.chromium.org/p/chromium/issues/detail?id=1025456#c15) to focus on optimizing read performance, not write performance.
 
-Switching to WebSQL (even if it is deprecated) is also not an option because, like [the comparison tool shows](https://nxpkg.github.io/nxdb/client-side-databases/database-comparison/index.html), it has even slower transactions.
+Switching to WebSQL (even if it is deprecated) is also not an option because, like [the comparison tool shows](https://nxdb.nxpkg.github.io/client-side-databases/database-comparison/index.html), it has even slower transactions.
 
 So you need a way to **make IndexedDB faster**. In the following I lay out some performance optimizations than can be made to have faster reads and writes in IndexedDB.
 
@@ -257,7 +257,7 @@ There are some libraries that already do that:
 
 ### In-Memory: Persistence
 
-One downside of not directly using IndexedDB, is that your data is not persistent all the time. And when the JavaScript process exists without having persisted to IndexedDB, data can be lost. To prevent this from happening, we have to ensure that the in-memory state is written down to the disc. One point is make persisting as fast as possible. LokiJS for example has the `incremental-indexeddb-adapter` which only saves new writes to the disc instead of persisting the whole state. Another point is to run the persisting at the correct point in time. For example the NxDB [LokiJS storage](https://nxpkg.github.io/nxdb/rx-storage-lokijs.html) persists in the following situations:
+One downside of not directly using IndexedDB, is that your data is not persistent all the time. And when the JavaScript process exists without having persisted to IndexedDB, data can be lost. To prevent this from happening, we have to ensure that the in-memory state is written down to the disc. One point is make persisting as fast as possible. LokiJS for example has the `incremental-indexeddb-adapter` which only saves new writes to the disc instead of persisting the whole state. Another point is to run the persisting at the correct point in time. For example the NxDB [LokiJS storage](https://nxdb.nxpkg.github.io/rx-storage-lokijs.html) persists in the following situations:
 
 - When the database is idle and no write or query is running. In that time we can persist the state if any new writes appeared before.
 - When the `window` fires the [beforeunload event](https://developer.mozilla.org/en-US/docs/Web/API/WindowEventHandlers/onbeforeunload) we can assume that the JavaScript process is exited any moment and we have to persist the state. After `beforeunload` there are several seconds time which are sufficient to store all new changes. This has shown to work quite reliable.

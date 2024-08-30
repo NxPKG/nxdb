@@ -6,7 +6,7 @@ slug: flutter-database.html
 
 # NxDB as a Database in a Flutter Application
 
-In the world of mobile application development, Flutter has gained significant popularity due to its cross-platform capabilities and rich UI framework. When it comes to building feature-rich Flutter applications, the choice of a robust and efficient database is crucial. In this article, we will explore [NxDB](https://nxpkg.github.io/nxdb/) as a database solution for Flutter applications. We'll delve into the core features of NxDB, its benefits over other database options, and how to integrate it into a Flutter app.
+In the world of mobile application development, Flutter has gained significant popularity due to its cross-platform capabilities and rich UI framework. When it comes to building feature-rich Flutter applications, the choice of a robust and efficient database is crucial. In this article, we will explore [NxDB](https://nxdb.nxpkg.github.io/) as a database solution for Flutter applications. We'll delve into the core features of NxDB, its benefits over other database options, and how to integrate it into a Flutter app.
 
 
 :::note
@@ -14,7 +14,7 @@ You can find the source code for an example NxDB Flutter Application [at the git
 :::
 
 <center>
-    <a href="https://nxpkg.github.io/nxdb/">
+    <a href="https://nxdb.nxpkg.github.io/">
         <img src="../files/logo/nxdb_javascript_database.svg" alt="NxDB Flutter Database" width="220" />
     </a>
 </center>
@@ -38,10 +38,10 @@ NxDB is a powerful NoSQL database solution that is designed to work seamlessly w
 To understand how NxDB can be utilized in a Flutter application, let's explore its core features and advantages.
 
 ### What is NxDB?
-[NxDB](https://nxpkg.github.io/nxdb/) is a client-side database built on top of IndexedDB, which is a low-level [browser-based database](./browser-database.md) API. It provides a simple and intuitive API for performing CRUD operations (Create, Read, Update, Delete) on documents. NxDB's underlying architecture allows for efficient handling of data synchronization between multiple clients and servers.
+[NxDB](https://nxdb.nxpkg.github.io/) is a client-side database built on top of IndexedDB, which is a low-level [browser-based database](./browser-database.md) API. It provides a simple and intuitive API for performing CRUD operations (Create, Read, Update, Delete) on documents. NxDB's underlying architecture allows for efficient handling of data synchronization between multiple clients and servers.
 
 <center>
-    <a href="https://nxpkg.github.io/nxdb/">
+    <a href="https://nxdb.nxpkg.github.io/">
         <img src="../files/logo/nxdb_javascript_database.svg" alt="NxDB Flutter Database" width="220" />
     </a>
 </center>

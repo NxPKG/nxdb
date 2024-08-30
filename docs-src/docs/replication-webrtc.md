@@ -53,7 +53,7 @@ const replicationPool = await replicateWebRTC(
             // Set the signaling server url.
             // You can use the server provided by NxDB for tryouts,
             // but in production you should use your own server instead.
-            signalingServerUrl: 'wss://signaling.nxpkg.github.io/nxdb/',
+            signalingServerUrl: 'wss://signaling.nxdb.nxpkg.github.io/',
 
             // only in Node.js, we need the wrtc library
             // because Node.js does not contain the WebRTC API.
@@ -145,7 +145,7 @@ const replicationPool = await replicateWebRTC(
 ## Conflict detection in WebRTC replication
 
 NxDB's conflict handling works by detecting and resolving conflicts that may arise when multiple clients in a decentralized database system attempt to modify the same data concurrently.
-A **custom conflict handler** can be set up, which is a plain JavaScript function. The conflict handler is run on each replicated document write and resolves the conflict if required. [Find out more about NxDB conflict handling here](https://nxpkg.github.io/nxdb/transactions-conflicts-revisions.html)
+A **custom conflict handler** can be set up, which is a plain JavaScript function. The conflict handler is run on each replicated document write and resolves the conflict if required. [Find out more about NxDB conflict handling here](https://nxdb.nxpkg.github.io/transactions-conflicts-revisions.html)
 
 ## SimplePeer requires to have `process.nextTick()`
 

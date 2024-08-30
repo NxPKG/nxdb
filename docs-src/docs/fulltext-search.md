@@ -73,7 +73,7 @@ const flexSearch = await addFulltextSearch({
     /**
      * (Optional)
      * Amount of documents to index at once.
-     * See https://nxpkg.github.io/nxdb/rx-pipeline.html
+     * See https://nxdb.nxpkg.github.io/rx-pipeline.html
      */
     batchSize: number;
     /**

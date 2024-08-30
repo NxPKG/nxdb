@@ -7,7 +7,7 @@ slug: data-base.html
 In the world of web applications, efficient data management plays a crucial role in delivering a seamless user experience. As mobile applications continue to dominate the digital landscape, the importance of robust data bases becomes evident. In this article, we will explore NxDB as a powerful data base solution for web applications. We will delve into its features, advantages, and advanced techniques, highlighting its ability to handle reactive data and enable an offline-first approach.
 
 <center>
-    <a href="https://nxpkg.github.io/nxdb/">
+    <a href="https://nxdb.nxpkg.github.io/">
         <img src="../files/logo/nxdb_javascript_database.svg" alt="Data Base" width="240" />
     </a>
 </center>
@@ -78,7 +78,7 @@ In scenarios where storage size is a concern, NxDB provides JSON [key compressio
 NxDB provides an exceptional data base solution for web and mobile applications, empowering developers to create reactive, offline-ready, and synchronized applications. With its reactive data handling, offline-first approach, and replication plugins, NxDB simplifies the challenges of building real-time applications with data synchronization requirements. By embracing advanced features like indexing, encryption, change streams, and JSON key compression, developers can optimize performance, enhance security, and reduce storage requirements. As web and [mobile applications](./mobile-database.md) continue to evolve, NxDB proves to be a reliable and powerful
 
 <center>
-    <a href="https://nxpkg.github.io/nxdb/">
+    <a href="https://nxdb.nxpkg.github.io/">
         <img src="../files/logo/nxdb_javascript_database.svg" alt="Data Base" width="240" />
     </a>
 </center>
